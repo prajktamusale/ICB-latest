@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@font-face {
+    font-family: arpona;
+    src: url(arpona-extralightitalic.otf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+}
+
+section .backcolor{
+    position: absolute;
+    filter: blur(150px);
+
+}
+
+section .backcolor:nth-child(1){
+    top: -100px;
+    left: -200px;
+    width: 800px;
+    height: 500px;
+    border-bottom-right-radius: 600px;
+    background: #FF9933;
+}
+
+section .backcolor:nth-child(2){
+    bottom: -100px;
+    right: -200px;
+    width: 800px;
+    height: 500px;
+    border-top-left-radius: 600px;
+    background: #138808;
+}
+
+.box{
+    position: relative;
+}
+
+.mainlogo{
+    width: 500px;
+}
+
+.box .square{
+    position: absolute;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    animation: animate 10s linear infinite;
+    animation-delay: calc(-1s * var(--i));
+}
+
+@keyframes animate{
+    0%, 100%
+    {
+        transform: translateY(-30px);
+    }
+    50%
+    {
+        transform: translateY(30px);
+    }
+}
+
+.box .square:nth-child(1){
+    top: -50px;
+    right: -60px;
+    width: 100px;
+    height: 100px;
+}
+
+.box .square:nth-child(2){
+    top: 150px;
+    left: -100px;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
+
+.box .square:nth-child(3){
+    bottom: 50px;
+    right: -60px;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+}
+
+.box .square:nth-child(4){
+    bottom: -80px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.box .square:nth-child(5){
+    top: -80px;
+    left: 140px;
+    width: 60px;
+    height: 60px;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 30px 40px 40px;
+}
+
+.form h2{
+    position: relative;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.form h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: #000;
+}
+
+.form .inputBox{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .inputBox a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #000 ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: .7s;
+}
+
+.form .inputBox a:hover{
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.forget{
+    margin-top: 5px;
+    color: #fff;
+}
+
+.forget a{
+    color: #fff;
+    font-weight: 600;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginbtn{
+    color: #fff;
+    width:100px;
+    background: #016fbd;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.loginbtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+nav .logo{
+    width: 10rem;
+}
+
+.backVideo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px 8%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div:nth-of-type(2){
+    display: flex;
+}
+
+.footContainer p a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.footContainer p a:hover{
+    opacity: .8;
+    color: #014cbd;
+}
+
+footer h2{
+    font-family: arpona;
+    padding-top: 1rem;
+}
+
+footer .footerlogo{
+    width: 15rem;
+    padding-left: 1rem;
+}
+
+@media only screen and (max-width: 2560px){
+    section {
+        background: linear-gradient(rgb(245, 250, 240), rgb(220, 235, 260));
+    }
+    section .backcolor:nth-child(1){
+        width: 1700px;
+        height: 1000px;
+        border-bottom-right-radius: 100%;
+    }
+    
+    section .backcolor:nth-child(2){
+        width: 1700px;
+        height: 1000px;
+        border-top-left-radius: 100%;
+    }
+
+    nav{
+        padding: 80px 5% 10px;
+    }
+    
+    nav .logo{
+        width: 24rem;
+    }
+
+    .container{
+        width: 1000px;
+        min-height: 800px;
+        border-radius: 30px;
+    }    
+
+    @keyframes animate{
+        0%, 100%
+        {
+            transform: translateY(-50px);
+        }
+        50%
+        {
+            transform: translateY(50px);
+        }
+    }
+    
+    .box .square:nth-child(1){
+        right: -120px;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .box .square:nth-child(2){
+        left: -150px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .box .square:nth-child(3){
+        width: 150px;
+        height: 150px;
+    }
+    
+    .box .square:nth-child(4){
+        width: 80px;
+        height: 80px;
+    }
+    
+    .box .square:nth-child(5){
+        width: 100px;
+        height: 100px;
+    }
+
+    .form{
+        padding: 50px 80px 80px;
+    }
+    
+    .form h2{
+        font-size: 5rem;
+        font-weight: 600;
+        margin-bottom: 80px;
+    }
+    
+    .form h2::before{
+        width: 220px;
+        height: 7px;
+    }
+    
+    .form .inputBox{
+        margin-top: 50px;
+    }
+
+    .form .inputBox a{
+        padding: 20px 30px;
+        font-size: 50px;
+        border-radius: 70px;
+    }
+
+    footer{
+        padding: 0 5% 80px;
+    }
+    
+    footer h2{
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    
+    footer .footerlogo{
+        width: 30rem;
+    }
+
+}
+
+@media only screen and (max-width: 1440px){
+    section {
+        background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+    }
+    section .backcolor:nth-child(1){
+        width: 800px;
+        height: 500px;
+        border-bottom-right-radius: 600px;
+    }
+    
+    section .backcolor:nth-child(2){
+        width: 800px;
+        height: 500px;
+        border-top-left-radius: 600px;
+    }
+
+    nav{
+        padding: 20px 8%;
+    }
+    
+    nav .logo{
+        width: 10rem;
+    }
+
+    .container{
+        width: 400px;
+        min-height: 300px;
+        border-radius: 10px;
+    }    
+
+    @keyframes animate{
+        0%, 100%
+        {
+            transform: translateY(-30px);
+        }
+        50%
+        {
+            transform: translateY(30px);
+        }
+    }
+    
+    .box .square:nth-child(1){
+        right: -60px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .box .square:nth-child(2){
+        left: -100px;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .box .square:nth-child(3){
+        width: 80px;
+        height: 80px;
+    }
+    
+    .box .square:nth-child(4){
+        width: 50px;
+        height: 50px;
+    }
+    
+    .box .square:nth-child(5){
+        width: 60px;
+        height: 60px;
+    }
+
+    .form{
+        padding: 30px 40px 40px;
+    }
+    
+    .form h2{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    
+    .form h2::before{
+        width: 70px;
+        height: 4px;
+    }
+    
+    .form .inputBox{
+        margin-top: 20px;
+    }
+
+    .form .inputBox a{
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+
+    footer{
+        padding: 20px 8%;
+    }
+    
+    footer h2{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+    
+    footer .footerlogo{
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    nav{
+        padding: 20px 5%;
+    }
+    
+    nav .logo{
+        width: 10rem;
+    }
+
+    footer{
+        padding: 20px 5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    section .backcolor{
+        filter: blur(100px);
+    }
+    section .backcolor:nth-child(1){
+        width: 700px;
+        height: 400px;
+        border-bottom-right-radius: 600px;
+    }
+    
+    section .backcolor:nth-child(2){
+        width: 700px;
+        height: 400px;
+        border-top-left-radius: 600px;
+    }
+
+    nav{
+        padding: 20px 4%;
+    }
+    
+    nav .logo{
+        width: 8rem;
+    }
+
+    .container{
+        width: 350px;
+        min-height: 300px;
+    }    
+
+    .mainlogo{
+        width: 400px;
+    }
+
+    .box .square:nth-child(1){
+        right: -40px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .box .square:nth-child(2){
+        left: -80px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .box .square:nth-child(3){
+        right: -40px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .box .square:nth-child(4){
+        bottom: -60px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .box .square:nth-child(5){
+        top: -60px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .footContainer p{
+        font-size: .7rem;
+    }
+    
+    footer{
+        padding: 20px 4%;
+    }
+    
+    footer h2{
+        font-size: .8rem;
+        padding-top: .5rem;
+    }
+    
+    footer .footerlogo{
+        width: 10rem;
+        padding-left: .5rem;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .footContainer p{
+        font-size: .6rem;
+    }
+    footer h2{
+        font-size: .7rem;
+    }
+    footer .footerlogo{
+        width: 7rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    footer{
+        gap:20px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    section .backcolor{
+        filter: blur(50px);
+    }
+    section .backcolor:nth-child(1){
+        top: -50px;
+        left: -70px;
+        width: 400px;
+        height: 400px;
+        border-bottom-right-radius: 100%;
+    }
+    
+    section .backcolor:nth-child(2){
+        bottom: -50px;
+        right: -70px;
+        width: 400px;
+        height: 400px;
+        border-top-left-radius: 100%;
+    }
+
+    nav{
+        padding: 10px 3%;
+    }
+
+    nav .loginbtn{
+        width: 70px;
+    }
+    
+    nav h2{
+        font-size: 1rem;
+    }
+
+    nav .logo{
+        width: 7rem;
+    }
+
+    .container{
+        width: 250px;
+        min-height: 230px;
+    }    
+
+    @keyframes animate{
+        0%, 100%
+        {
+            transform: translateY(-25px);
+        }
+        50%
+        {
+            transform: translateY(25px);
+        }
+    }
+
+    .mainlogo{
+        width: 350px;
+    }
+
+    .form{
+        padding: 20px 30px 30px;
+    }
+    
+    .form h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .form h2::before{
+        bottom: -6px;
+        width: 60px;
+        height: 3px;
+    }
+    
+    .form .inputBox{
+        margin-top: 15px;
+    }
+    
+    .form .inputBox a{
+        padding: 5px 10px;
+        font-size: 14px;
+    }    
+
+    .box .square:nth-child(1){
+        right: -40px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .box .square:nth-child(2){
+        left: -60px;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .box .square:nth-child(3){
+        right: -30px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .box .square:nth-child(4){
+        left: 40px;
+        bottom: -30px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .box .square:nth-child(5){
+        top: -35px;
+        left: 70px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .footContainer{
+        text-align: center;
+    }
+    
+    footer{
+        flex-direction: column-reverse;
+        padding: 10px 3%;
+        gap:10px
+    }
+    
+    footer h2{
+        font-size: .8rem;
+        padding-top: .4rem;
+    }
+    
+    footer .footerlogo{
+        width: 10rem;
+        padding-left: .5rem;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    nav h2{
+        font-size: .8rem;
+    }
+
+    .container{
+        width: 200px;
+        min-height: 200px;
+    }    
+
+    .mainlogo{
+        width: 250px;
+    }
+
+    .form{
+        padding: 15px 20px 20px;
+    }
+    
+    .form h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .form h2::before{
+        bottom: -5px;
+        width: 53px;
+        height: 3px;
+    }
+    
+    .form .inputBox{
+        margin-top: 10px;
+    }
+    
+    .form .inputBox a{
+        padding: 5px 10px;
+        font-size: 14px;
+    }    
+
+    .box .square:nth-child(1){
+        right: -30px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .box .square:nth-child(2){
+        top: 70px;
+        left: -50px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .box .square:nth-child(3){
+        right: -30px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .box .square:nth-child(4){
+        left: 40px;
+        bottom: -30px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .box .square:nth-child(5){
+        top: -35px;
+        left: 70px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    footer{
+        padding: 10px 3%;
+    }
+    
+    footer h2{
+        font-size: .8rem;
+        padding-top: .4rem;
+    }
+    
+    footer .footerlogo{
+        width: 8rem;
+        padding-left: .5rem;
+    }
+}

@@ -1,0 +1,37 @@
+header {
+  background: linear-gradient(
+    var(--shading----300) 19.31%,
+    var(--shading----400) 81.18%
+  );
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  row-gap: 1vw;
+  column-gap: 2vw;
+}
+
+.section-search {
+  margin: auto;
+}
+
+@media (min-width: 500px) {
+  .products {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+  }
+}
+
+@media (min-width: 500px) {
+  .products {
+    width: 80vw;
+    margin: auto;
+  }
+}

@@ -1,0 +1,49 @@
+:root{
+    --icon-size-xxld:128px;
+    --icon-size-xld:64px;
+    --icon-size-ld:40px;
+    --icon-size-md:24px;
+    --icon-size-sd:12px;
+
+}
+
+.navbar_div{
+    width:100vw;
+    background-color: #ECECEC;
+    /* position: sticky; */
+    position: fixed;
+    bottom:0px;
+}
+
+.footer_navbar{
+    /* width:100vw; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #ECECEC;
+    width: 80vw;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.footer_navbar a, .footer_navbar a:active, .footer_navbar a:visited, .footer_navbar a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_navbar_option{
+    width: fit-content;
+    height: fit-content;
+    /* background: red; */
+}
+
+.footer_navbar_option svg{
+    width: var(--icon-size-ld);
+    height: var(--icon-size-ld);
+}
+
+@media(max-width:900px){
+    .footer_navbar{
+        width:100vw;
+    } 
+}

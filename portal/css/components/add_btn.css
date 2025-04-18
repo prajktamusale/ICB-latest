@@ -1,0 +1,22 @@
+.component_add_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_images__btn {
+  border-radius: 50%;
+  min-height: 2vh;
+  min-width: 2vh;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+}
+
+@media (max-width: 500px) {
+  .product_images__btn {
+    min-width: 10vw;
+    min-height: 10vw;
+    font-size: 2rem;
+  }
+}

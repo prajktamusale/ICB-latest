@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@100;300;400;700&display=swap");
+
+body {
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px 0 0;
+  position: relative;
+}
+.container .profilePicture {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding-right: 20px;
+}
+.pp-sms img:first-of-type {
+  height: 100%;
+  width: 100%;
+  border: 15px solid #6af491;
+  border-radius: 50%;
+}
+.pp-sms .right-tick {
+  position: absolute;
+  height: auto;
+  width: 30px;
+  right: -15px;
+  bottom: -15px;
+}
+
+/* .container .right-tick {
+  width: 30%;
+} */
+.sms {
+  width: 80px;
+  height: 80px;
+}
+.name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.role {
+  opacity: 70%;
+  margin-bottom: 0px;
+}
+.sm-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  margin: 5px;
+  /* border: 3px solid red; */
+}
+.sm-container img {
+  width: 30px;
+  cursor: pointer;
+}
+h3 {
+  margin: 10px;
+}
+.add-post {
+  /* flex: 30%; */
+  background: url(plus.png);
+}
+.share-my-story {
+  /* flex: 30%; */
+}
+.add-previous-story {
+  /* flex: 30%; */
+}
+.post-something {
+  position: absolute;
+  top: 435px;
+  height: auto;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: #63636333 0px 2px 8px 0px;
+}
+textarea {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  color: #555555;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+}
+textarea:focus {
+  background: none repeat scroll 0 0 #ffffff;
+  outline-width: 0;
+}
+.no-post-yet {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  height: 50vh;
+  width: 100%;
+  background-color: #464646;
+  margin-top: 10vh;
+  color: white;
+}
+
+.images-input input[type="file"] {
+  display: none;
+  border: solid black 1px;
+  background: #6af491;
+}
+
+.images-input label {
+  cursor: pointer;
+}
+
+.add-images {
+  /* background-color: #3336a1;
+  border: none; */
+}
+
+/* div {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: #33cccc;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 400px;
+}
+
+div.dragover {
+  background-color: #aaa;
+} */
+form .btn {
+  position: relative;
+  background: #33cccc;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: white;
+}
+.center-label {
+  display: block;
+  text-align: center;
+  width: 100%; /* Ensure the label takes the full width of its container */
+}
+.center-label {
+  display: block;
+  text-align: center;
+  background-color: #ffeef4;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .post-something {
+    height: 34%;
+    width: 85%;
+  }
+  form .btn {
+    margin-top: 7px;
+  }
+}
+@media only screen and (max-width: 2560px) {
+  .container .profilePicture {
+    width: 300px;
+    height: 300px;
+  }
+  .profilePicture .right-tick {
+    width: 70px;
+    right: -5px;
+    bottom: -20px;
+  }
+  .name h2 {
+    font-size: 4rem;
+  }
+  .role h2 {
+    font-size: 3rem;
+  }
+  .add-post h3 {
+    font-size: 2rem;
+  }
+  .add-post img {
+    width: 60px;
+  }
+  .post-something {
+    top: 700px;
+  }
+  .post-something form textarea {
+    height: 200px;
+    font-size: 2rem;
+  }
+  .post-something form .btn {
+    width: 400px;
+    height: 60px;
+    font-size: 3rem;
+  }
+  .no-post-yet h2 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .container .profilePicture {
+    width: 150px;
+    height: 150px;
+  }
+  .profilePicture img:first-of-type {
+    border: 8px solid;
+  }
+  .profilePicture .right-tick {
+    width: 40px;
+    right: 5px;
+    bottom: -15px;
+  }
+  .name {
+    margin-top: 15px;
+  }
+  .name h2 {
+    font-size: 2rem;
+  }
+  .role h2 {
+    font-size: 1.5rem;
+  }
+  .add-post h3 {
+    font-size: 1rem;
+  }
+  .add-post img {
+    width: 40px;
+  }
+  .post-something {
+    top: 200px;
+  }
+  .post-something form textarea {
+    height: 100px;
+    font-size: 1rem;
+  }
+  .post-something form .btn {
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+  .no-post-yet {
+    height: 30vh;
+  }
+  .no-post-yet h2 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  .container .profilePicture {
+    width: 100px;
+    height: 100px;
+  }
+  .profilePicture img:first-of-type {
+    border: 6px solid;
+  }
+  .profilePicture .right-tick {
+    width: 30px;
+    right: 8px;
+    bottom: -15px;
+  }
+  .name {
+    margin-top: 5px;
+    margin-bottom: 2px;
+  }
+  .name h2 {
+    font-size: 1.7rem;
+  }
+  .role h2 {
+    font-size: 1.5rem;
+  }
+  .add-post h3 {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  .add-post img {
+    width: 40px;
+  }
+  .post-something {
+    top: 150px;
+  }
+  .post-something form textarea {
+    height: 100px;
+    font-size: 1rem;
+  }
+  .post-something form .btn {
+    width: 200px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+  .no-post-yet {
+    height: 30vh;
+  }
+  .no-post-yet h2 {
+    font-size: 1.5rem;
+  }
+}

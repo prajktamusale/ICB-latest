@@ -1,0 +1,665 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn-edit{
+    position: relative;
+   top: 60px;
+   left: -50px;
+}
+
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.login-page {
+  width: 100% !important;
+  padding: 8% 0 0;
+  margin-top: -100px;
+  margin-right: 0px;
+}
+
+#edit{
+    display: none;
+    width: 100%;
+    position: absolute;
+
+}
+
+header{
+    overflow-y: hidden !important;
+    position: relative;
+}
+
+textarea{
+    height: 7rem;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #ffffff;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 15px;
+
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff00;
+  max-width: 100% !important;
+  padding: 45px;
+  text-align: justify;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #ffffff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 15px;
+  position: relative;
+}
+
+form{
+    width: 100%;
+}
+
+#form{
+    width: 100%;
+    margin-right: 0px;
+    position: relative;
+}
+
+#error_msg {
+    position: absolute;
+    font-weight: 600;
+    right: 10px;
+    top: 33px;
+    z-index: 1;
+}
+
+.form-error {
+    color: #D83D5A;
+}
+
+.form-success {
+    color: green;
+}
+
+#usernameInst {
+    display: none;
+    font-weight: 600;
+    margin: 0 0 15px 22px;
+
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+  max-width: 100%;
+  position: relative;
+}
+
+.line{
+    display: inline;
+}
+
+
+.info {
+  margin: 50px auto;
+  text-align: center;
+}
+.info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+ .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.info span .fa {
+  color: #EF3B3A;
+}
+.main-content {
+  background: #c2c2c2; 
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+label{
+    margin-right: 97%;
+    font-weight: 600 !important;
+    color: #000000;
+    margin-top: 20px !important;
+    
+}
+
+.form h1{
+
+    margin-right: 80%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.container2{
+    width: 100% !important;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+@media only screen and (max-width:2560px){
+    .btn-ctn{
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 10% 0 8%;
+    }
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn, #btn-edit{
+        width: 300px;
+        padding: 0.7rem 1.5rem;
+        font-size: 1.2rem;
+    }
+    .follow-btn{
+        position: absolute;
+        margin-left: 0;
+        left: 30%;
+    }
+    .follow2-btn{
+        position: absolute;
+        margin-left: 0;
+        right: 30%;
+    }
+    #btn-edit{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .save-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 470px;
+        left: 30%;
+    }
+    .cancel-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 470px;
+        left: auto;
+        right: 30%;
+    }
+    .login-page{
+        padding: 0;
+        margin-top:0;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .btn-ctn{
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 8% 0;
+    }
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn, #btn-edit{
+        padding: 0.3rem 1rem;
+        width: 200px;
+    }
+    .follow-btn{
+        position: absolute;
+        margin-left: 0;
+        left: 20%;
+    }
+    .follow2-btn{
+        position: absolute;
+        margin-left: 0;
+        right: 20%;
+    }
+    #btn-edit{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 170px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .save-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 230px;
+        left: 20%;
+    }
+    .cancel-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 230px;
+        left: auto;
+        right: 20%;
+    }
+    .login-page{
+        padding: 0;
+        margin-top:0;
+    }
+}
+
+@media (min-width:901px) and (max-width: 1100px) {
+
+    .verified img{
+
+        margin-left: 1% !important;
+    }
+
+    .msg-btn{
+        margin-left: 78px !important;
+    }
+
+    .logo a{
+        font-size: smaller;
+        margin-left: 0px;
+    }
+
+   .profile{
+       margin-left: 13% !important;
+   }
+
+   .container a{
+    margin-left: 30px;
+    margin-top: 3% !important;
+   }
+
+
+
+}
+
+@media only screen and (max-width:1024px){
+    .btn-ctn{
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 8% 0;
+    }
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn, #btn-edit{
+        width: 200px;
+    }
+    .follow-btn{
+        position: absolute;
+        margin-left: 0;
+        left: 20%;
+    }
+    .follow2-btn{
+        position: absolute;
+        margin-left: 0;
+        right: 20%;
+    }
+    #btn-edit{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .save-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 190px;
+        left: 20%;
+    }
+    .cancel-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 190px;
+        left: auto;
+        right: 20%;
+    }
+    .login-page{
+        padding: 0;
+        margin-top:0;
+    }
+}
+
+@media (min-width:751px) and (max-width: 900px) {
+    .verified img{
+
+        margin-left: 3% !important;
+    }
+
+    .msg-btn{
+        margin-left: 23px !important;
+    }
+
+    .logo a{
+        font-size: smaller;
+        margin-left: 0px;
+    }
+
+   .profile{
+       margin-left: 18% !important;
+   }
+
+   .container a{
+    margin-left: 0px;
+    margin-top: 3% !important;
+   }
+
+   /* .profilePicture img:first-of-type {
+    border: 2.5px solid #6AF491 !important;
+} */
+}
+
+@media (min-width:561px) and (max-width: 750px) {
+    .verified img{
+
+        margin-left: -1% !important;
+        height: 30px;
+        width: 30px;
+        margin-top: 190px !important;
+    }
+
+    .msg-btn{
+        margin-left: 110px !important;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .logo a{
+        font-size: smaller;
+        margin-left: 0px;
+    }
+
+   .profile{
+       margin-left: 22% !important;
+   }
+
+   .container a{
+    margin-left: 0px;
+    margin-top: 20px !important;
+   }
+}
+
+.hamburger{
+    margin-left: 140px !important;
+}
+
+/* .profilePicture img:first-of-type {
+    border: 2.5px solid #6AF491 !important;
+} */
+
+header{
+    overflow: hidden !important;
+}
+
+@media only screen and (max-width:770px){
+    .btn-ctn{
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 10% 0;
+    }
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn, #btn-edit{
+        width: 200px;
+    }
+    .follow-btn{
+        position: absolute;
+        margin-left: 0;
+        left: 10%;
+    }
+    .follow2-btn{
+        position: absolute;
+        margin-left: 0;
+        right: 10%;
+    }
+    #btn-edit{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .save-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 190px;
+        left: 10%;
+    }
+    .cancel-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 190px;
+        left: auto;
+        right: 10%;
+    }
+    .login-page{
+        padding: 0;
+        margin-top:0;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn{
+        width: 175px;
+    }
+    .btn-ctn{
+        position: relative;
+        padding: 10% 0;
+    }
+    #btn-edit{
+        width: 170px;
+        position: absolute;
+        margin-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .login-page{
+        padding: 0;
+        margin-top:0;
+    }
+
+    .verified img{
+
+        margin-left: -1% !important;
+        height: 30px;
+        width: 30px;
+        margin-top: 190px !important;
+    }
+
+    .save-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 180px;
+        left: 5%;
+    }
+
+    .msg-btn{
+        margin-left: 110px !important;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .cancel-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 180px;
+        left: auto;
+        right: 5%;
+    }
+
+    .logo a{
+        font-size: smaller;
+        margin-left: 0px;
+    }
+
+   .profile{
+       margin-left: 22% !important;
+   }
+
+   
+
+   .follow2-btn{
+       position: absolute;
+       margin-left: 0;
+       right: 5%;
+   }
+
+   .follow-btn{
+    position: absolute;
+    margin-left: 0;
+    left: 5%;
+}
+
+.hamburger{
+    margin-left: 140px !important;
+}
+
+/* .profilePicture img:first-of-type {
+    border: 1.5px solid #6AF491 !important;
+} */
+
+.container{
+    margin-left: 0% !important;
+}
+
+.user-details{
+    margin-top: -120px !important;
+}
+
+.form{
+    margin-top:10px;
+}
+
+.form h1{
+    width:130px;
+}
+
+header{
+    overflow: hidden !important;
+}
+
+
+}
+
+@media only screen and (max-width:400px){
+    .btn-ctn{
+        position: relative;
+    }
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn{
+        width: 130px;
+    }
+    .follow-btn{
+        position: absolute;
+        margin-left: 0;
+        left: 5%;
+    }
+    .follow2-btn{
+        position: absolute;
+        margin-left: 0;
+        right: 5%;
+    }
+    #btn-edit{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .save-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 140px;
+        left: 5%;
+    }
+    .cancel-btn{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 140px;
+        left: auto;
+        right: 5%;
+    }
+    header{
+        padding-bottom: 10%;
+    }
+    .login-page{
+        padding: 0;
+        margin-top:0;
+    }
+}
+@media only screen and (max-width:340px){
+    .follow-btn, .follow2-btn, .save-btn, .cancel-btn{
+        width: 130px;
+    }
+}

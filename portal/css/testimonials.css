@@ -1,0 +1,221 @@
+.testimonials_card{
+    border-radius: 25px;
+    overflow: hidden;
+    width: 75vw;
+    height: 60vh;
+    margin: auto;
+    min-width: 75vw;
+    /* filter: blur(2px); */
+}
+
+.testimonials_card__nest{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: #FFF;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* .testimonials_card__nest::before{
+    content: "";
+    display: block;
+    transform: rotate(-14.534deg) translate(-15vw, -15vh);
+    /* border-radius: 300px; */
+    /* background: #0ED678;
+    mix-blend-mode: multiply;
+    height: 30vh;
+    width: 100vw;
+} */
+
+/* .testimonials_card__nest::after{
+    content: "";
+    display: block;
+    transform: rotate(-6.198deg) translate(15vw, -33vh);
+    border-radius: 300px;
+    background: #0ED678;
+    mix-blend-mode: multiply;
+    height: 30vh;
+    width: 100vw;
+} */
+
+.testmoinals_card__content{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    /* top:-30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: solid black 1px; */
+    background-color: F5F5F5;
+    overflow: hidden;
+    background: linear-gradient(calc(-14deg - 180deg), #0ED678 35%, transparent 35%);
+}
+
+.testimonials_card__profile{
+    width: 50vw;
+    height: 50vw;
+    border-radius: 30vw;
+    overflow: hidden;
+    margin: 2vh auto;
+}
+
+.testimonials_card__profile_pic{
+    width: 100%;
+    height: 100%;
+}
+
+.testimonials_card__details__name{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.testimonials_card__details__description{
+    width: 80%;
+    margin: auto;
+    color: #000;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: clamp(1rem, 0.8vw, 1.6rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.testimonials_card__profit{
+    color: #005073;
+    text-align: right;
+    font-family: Roboto;
+    font-size: clamp(1rem, 1vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: auto;
+}
+
+.testimonials_card__profit__message{
+    color: #005073;
+}
+
+@media (min-width: 300px){
+    .testimonials_card{
+        height: 75vh;
+    }
+}
+
+@media (min-width: 375px){
+    .testimonials_card{
+        height: 60vh;
+    }
+}
+
+@media (min-width: 420px){
+    .testimonials_card{
+        height: 70vh;
+    }
+}
+
+@media (min-width: 540px){
+    .testimonials_card{
+    width: 45vw;
+    min-width: 40vw;
+    }
+
+    .testimonials_card{
+        height: 50vh;
+    }
+
+    .testimonials_card__profile {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (min-width: 900px){
+    .testimonials_card{
+    width: 40vw;
+    min-width: 40vw;
+    height: 60vh;
+    }
+
+    .testimonials_card__profile{
+        width: 50%;
+        height: 50%;
+        /* border-radius: 30vw; */
+        /* overflow: hidden; */
+        margin: 2vh auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .testimonials_card{
+    width: 26vw;
+    min-width: 25vw;
+    height: 58vh;
+
+    }
+
+    .testimonials_card__profile{
+        width: 50%;
+        height: 50%;
+        /* border-radius: 30vw; */
+        /* overflow: hidden; */
+        margin: 2vh auto;
+    }
+}
+
+@media (min-width: 1440px){
+    .testimonials_card{
+        width: 20vw;
+        min-width: 20vw;
+        height: 58vh;
+    }
+
+    .testimonials_card__profile{
+        width: 80%;
+        height: 50%;
+        /* border-radius: 30vw; */
+        /* overflow: hidden; */
+        margin: 2vh auto;
+    }
+}
+
+@media (min-width: 1920px){
+    .testimonials_card{
+    width: 20vw;
+    min-width: 20vw;
+    height: 60vh;
+    }
+
+    .testimonials_card__profile{
+        width: 80%;
+        height: 50%;
+        /* border-radius: 30vw; */
+        /* overflow: hidden; */
+        margin: 2vh auto;
+    }
+}
+
+@media (min-width: 8000px){
+    .testimonials_card{
+    width: 20vw;
+    }
+
+    .testimonials_card__profile{
+        width: 50vw;
+        height: 50vw;
+        /* border-radius: 30vw; */
+        /* overflow: hidden; */
+        margin: 2vh auto;
+    }
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.legends{
+    font-family: 'Poppins';
+}
+:root {
+    --circle-border-width: 1.5px;
+    --default-color: #E4E6ED;
+    --completion-color: seagreen;
+  }
+  
+  .circle-container {
+    height:100%;
+    width: 50%;
+    aspect-ratio : 1 / 1;
+    margin: 35px;
+    transform: rotate(-90deg);
+  }
+  
+  .circle-container__background {
+    fill: none;
+    stroke: var(--default-color);
+    stroke-width: var(--circle-border-width);
+  }
+  
+  .circle-container__progress {
+    fill: none;
+    stroke-linecap: round;
+    stroke: var(--completion-color);
+    stroke-dasharray: 100 100;
+    stroke-linecap: round;
+    stroke-width: var(--circle-border-width);
+    transition: stroke-dashoffset 1s ease-in-out;
+    will-change: transform;
+  }
+  .ringE{
+    stroke: #CB8FBD;
+  }.ringD{stroke:#2EC5B6;}.ringC{stroke:#E01518}.ringB{stroke:#41D950}.ringA{stroke:#FFBE00}.ringF{stroke:#3498DB}
+
+.graphBox{
+    display: flex;
+}
+.eventRow{
+    align-items: center;
+    display: flex;
+    margin-left: 15px;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    height: auto;
+}
+.eventColor{
+    height:4vw;
+    aspect-ratio : 1 / 1;
+    border-radius: 50px;
+}
+.eventName, .eventDate{
+    font-size: 3vw;
+    padding: 0 5px;
+    font-weight: 400;
+}
+.achColor{
+    height:3vw;
+    aspect-ratio : 1 / 1;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.achievements{
+    width: 60%;
+}
+.achievements .eventName{
+    width: 30rem;
+}
+.achievements .eventDate{
+    width: 20rem;
+    text-align: center;
+}
+.achHeading{
+    font-style: normal;
+    font-size: 7.5vw;
+    font-weight: 450;
+    letter-spacing: .7px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.legends .eventRow{
+    margin: 0;
+}
+@media only screen and (min-width: 650px) {
+    .eventDate,.eventName{
+        font-size: 3vw;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+    .eventRow{
+        margin-left: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .circle-container{
+        width: 30%;
+    }
+    .graphBox{
+        justify-content: space-evenly;
+    }
+    .achHeading,.aeHead{
+        font-size: 3.5vw;
+        font-weight: 400;
+        margin: 20px;
+        margin-right: 0;
+    }
+    .gData1,.gData2{
+        width: 50%;
+    }
+    .achievements{
+        width: 100%;
+    }
+    .eventColor{
+        height:2.5vw;
+        aspect-ratio : 1 / 1;
+    }
+    .eventName,.eventDate{
+        padding-left: 20px;
+        font-size: 2vw;
+    }
+    .eventRow{
+        border-radius: 20px;
+        padding: 20px;
+        margin-left: 100px;
+    }
+}

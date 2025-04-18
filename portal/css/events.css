@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+    width: 95vw;
+    height: 95vh;
+    padding: 2vh;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.empty{
+    width:80%;
+    margin:40px auto;
+    padding: 25px 30px;
+    position:relative;
+    border-radius:5px;
+    /* box-shadow:0 0 10px 1px #ccc; */
+    background-color: #ebebeb;
+    border-left:5px solid #6c6c6c;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+.head {
+    display: flex;
+}
+.head div {
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 15px 0;
+    cursor: default;
+}
+
+.enrollments, .attendedEvents{
+    width: 100%;
+}
+.enrolledEvent, .attendedEvent{
+    width: 100%;
+    height: 6vw;
+    margin: 2vh 0;
+    border: 1.5px solid #000000;
+    border-radius: 1rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.enrolledEventHeading, .attendedEventHeading{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    font-family: roboto;
+    font-weight: 100;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+.enrolledEventData, .attendedEventData{
+    background-color: #D9D9D9;
+    width: 10%;
+    height: 100%;
+    padding: 0;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certificate{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certificate input[type="submit"] {
+    background: url("../images/download.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+}
+/* .enrolledEventData img, .attendedEventData img{
+    cursor: pointer;
+    height: 60%;
+} */
+
+.opportunities{
+    margin: 5vh 0;
+}
+
+@media only screen and (max-width: 2560px){
+    #certificate input[type="submit"]{
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    #certificate input[type="submit"]{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #certificate input[type="submit"]{
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #certificate input[type="submit"]{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #certificate input[type="submit"]{
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .head div{
+        font-size: 1.125rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .head div {
+        font-size: 1rem;
+    }
+    .enrolledEventData, .attendedEventData{
+        width: 20%;
+    }
+    .enrolledEventHeading, .attendedEventHeading{
+        font-size: 2vw;
+    }
+}

@@ -1,0 +1,111 @@
+/* This css file is for the company details section in partner accounts. */
+
+/* Mobile */
+.company {
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1vw;
+}
+
+.company .comapny__logo {
+  width: 20vw;
+  border-radius: 50%;
+  height: 20vw;
+  object-fit: contain;
+  background-color: var(--blue----700);
+}
+
+/* Tablet and Above >500px */
+@media (min-width: 500px) {
+  .company {
+    justify-content: start;
+  }
+
+  .company .comapny__logo {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .comapny__logo {
+    margin: auto 1vw;
+  }
+}
+
+.company .company__details {
+  width: fit-content;
+}
+
+.company__details__name,
+.main_dashboard_sub__display__order__order_list {
+  color: var(--blue----100);
+  font-family: Roboto;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.company__details__tag_line {
+  color: var(--black);
+  font-family: Roboto;
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Desktop >1024 */
+
+@media (min-width: 1024px) {
+  .company .comapny__logo {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .comapny__logo {
+    margin: auto 1vw;
+  }
+
+  .company__details__name,
+  .main_dashboard_sub__display__order__order_list {
+    /* color: var(--blue----100); */
+    /* font-family: Roboto; */
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+  }
+
+  .company__details__name {
+    font-size: 1.2rem;
+  }
+
+  .company__details__tag_line {
+    font-size: clamp(1rem, 1.2vw, 2rem);
+  }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .company .comapny__logo {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .company__details__name {
+    font-size: 1.5rem;
+  }
+
+  .company__details__tag_line {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 3840px) and (min-height: 2160px) {
+  .company__details__name {
+    font-size: 4rem;
+  }
+
+  .company__details__tag_line {
+    font-size: 3rem;
+  }
+}

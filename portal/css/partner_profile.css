@@ -1,0 +1,929 @@
+:root {
+  --blue----800: rgba(215, 215, 215, 1);
+  --blue--700: rgba(217, 217, 217, 1);
+  --blue--600: rgba(155, 164, 189, 1);
+  --blue--500: rgba(124, 140, 176, 1);
+  --blue--400: rgba(108, 131, 169, 1);
+  --blue----300: rgba(72, 102, 154, 1);
+  --blue----200: rgba(36, 73, 139, 1);
+  --blue----100: rgba(0, 44, 124, 1);
+  --cyan----400: rgba(24, 164, 154, 1);
+  --cyan----300: rgba(30, 180, 148, 1);
+  --cyan----200: rgba(36, 196, 142, 1);
+  --cyan----100: rgba(42, 213, 135, 1);
+  --neon--blue----700: rgba(3, 72, 144, 1);
+  --neon--blue----600: rgba(5, 100, 162, 1);
+  --neon--blue----500: rgba(7, 128, 180, 1);
+  --neon--blue----400: rgba(9, 156, 198, 1);
+  --neon--blue----300: rgba(11, 184, 216, 1);
+  --neon--blue----200: rgba(13, 212, 234, 1);
+  --neon--blue----100: rgba(15, 240, 252, 1);
+  --shading----900: rgba(12, 14, 25, 1);
+  --shading----800: rgba(28, 32, 53, 1);
+  --shading----700: rgba(48, 54, 81, 1);
+  --shading----600: rgba(74, 81, 109, 1);
+  --shading--500: rgba(105, 112, 137, 1);
+  --shading--400: rgba(199, 203, 216, 1);
+  --shading----300: rgba(199, 203, 216, 1);
+  --shading--200: rgba(230, 232, 240, 1);
+  --shading--100: rgba(244, 246, 249, 1);
+  --national--flag---flag-green: rgba(80, 158, 47, 1);
+  --national--flag---flag-white: rgba(255, 255, 255, 1);
+  --national--flag---flag-indigo: rgba(255, 143, 28, 1);
+}
+
+main {
+  margin: 5% auto;
+}
+
+/* Dashboard Partner */
+:root {
+  --blue----800: rgba(215, 215, 215, 1);
+  --blue----700: rgba(217, 217, 217, 1);
+  --blue----600: rgba(155, 164, 189, 1);
+  --blue----500: rgba(124, 140, 176, 1);
+  --blue----400: rgba(108, 131, 169, 1);
+  --blue----300: rgba(72, 102, 154, 1);
+  --blue----200: rgba(36, 73, 139, 1);
+  --blue----100: rgba(0, 44, 124, 1);
+  --cyan----400: rgba(24, 164, 154, 1);
+  --cyan----300: rgba(30, 180, 148, 1);
+  --cyan----200: rgba(36, 196, 142, 1);
+  --cyan----100: rgba(42, 213, 135, 1);
+  --neon--blue----700: rgba(3, 72, 144, 1);
+  --neon--blue----600: rgba(5, 100, 162, 1);
+  --neon--blue----500: rgba(7, 128, 180, 1);
+  --neon--blue----400: rgba(9, 156, 198, 1);
+  --neon--blue----300: rgba(11, 184, 216, 1);
+  --neon--blue----200: rgba(13, 212, 234, 1);
+  --neon--blue----100: rgba(15, 240, 252, 1);
+  --shading----900: rgba(12, 14, 25, 1);
+  --shading----800: rgba(28, 32, 53, 1);
+  --shading----700: rgba(48, 54, 81, 1);
+  --shading----600: rgba(74, 81, 109, 1);
+  --shading----500: rgba(105, 112, 137, 1);
+  --shading----400: rgba(199, 203, 216, 1);
+  --shading----300: rgba(199, 203, 216, 1);
+  --shading----200: rgba(230, 232, 240, 1);
+  --shading----100: rgba(244, 246, 249, 1);
+
+  --black: rgba(0, 0, 0, 1);
+  ---white: rgba(255, 255, 255, 1);
+}
+
+/* Mobile First */
+
+.company {
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company .comapny__logo {
+  width: 20vw;
+  border-radius: 50%;
+  height: 20vw;
+  object-fit: contain;
+  background-color: var(--blue----700);
+}
+
+.company .company__details {
+  width: fit-content;
+}
+
+.company__details__name,
+.main_dashboard_sub__display__order__order_list {
+  color: var(--blue----100);
+  font-family: Roboto;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.company__details__tag_line {
+  color: var(--black);
+  font-family: Roboto;
+  font-size: clamp(1.2rem, 2vw, 2rem);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Main Dashboard */
+.main_dashboard {
+  width: 90vw;
+  background-color: var(--shading----100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 4vw auto;
+}
+
+.main_dashboard_sub {
+  padding: 4vw 0;
+}
+
+.main_dashboard_sub__title {
+  color: var(--black);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main_dashboard_sub__display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--shading----200);
+  min-width: 80vw;
+  padding: 6vw 0;
+  border-radius: 25px;
+}
+
+#main_dashboard__charts .main_dashboard_sub__display {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2vw;
+}
+
+.main_dashboard_sub__display__stats {
+  background: var(--blue----200);
+  padding: 2vw;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 12px;
+  min-width: 28vw;
+  min-height: 28vw;
+}
+
+.main_dashboard_sub__display__stats__image {
+  color: var(--neon--blue----200);
+  font-size: 1.2rem;
+}
+
+.main_dashboard_sub__display__stats__value {
+  color: var(--cyan-100, #2ad587);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.main_dashboard_sub__display__stats__title {
+  color: var(--blue-800, #d7d7d7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#main_dashboard__charts {
+  order: 3;
+}
+
+#main_dashboard__details {
+  order: 1;
+}
+
+#main_dashboard__sales {
+  order: 2;
+}
+
+.main_dashboard_sub__display__order__value {
+  color: var(--neon--blue----700);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.main_dashboard_sub__display__order__order_list {
+  color: var(--neon-blue-700, #034890);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main_dashboard_sub__display__order__image {
+  font-size: 5rem;
+  color: var(--neon--blue----500);
+}
+
+#main_dashboard__orders .main_dashboard_sub__display {
+  min-height: 60vw;
+  justify-content: space-evenly;
+}
+
+/* Tablet */
+@media (min-width: 500px) {
+  .main_dashboard {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .main_dashboard_sub__display {
+    min-width: 40vw;
+  }
+
+  .main_dashboard_sub__display__stats {
+    min-width: 12vw;
+    min-height: 12vw;
+  }
+
+  .main_dashboard_sub__display {
+    min-width: 36vw;
+    min-height: 35vw;
+    margin: 2vw;
+  }
+
+  #main_dashboard__orders .main_dashboard_sub__display {
+    min-height: 35vw;
+  }
+
+  #main_dashboard__sales {
+    width: 80vw;
+  }
+
+  .main_dashboard_sub__display {
+    width: 100%;
+  }
+
+  .main_dashboard_sub {
+    margin: auto 1vw;
+  }
+
+  .company {
+    justify-content: start;
+  }
+
+  .company div {
+    /* padding: 2vw; */
+  }
+
+  .company .comapny__logo {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .comapny__logo {
+    margin: auto 1vw;
+  }
+
+  /* Dashboard 2 */
+  .main_dashboard_sub__display__table {
+    font-size: 1.4rem;
+  }
+  .main_dashboard_sub__display__table__content {
+    max-height: 30vh;
+  }
+  #main_dashboard__charts {
+    order: 2;
+  }
+
+  #main_dashboard__details {
+    order: 1;
+  }
+
+  #main_dashboard__sales {
+    order: 3;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .company .comapny__logo {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .company__details__name,
+  .main_dashboard_sub__display__order__order_list {
+    /* color: var(--blue----100); */
+    /* font-family: Roboto; */
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+  }
+
+  .company__details__tag_line {
+    font-size: clamp(1rem, 1.2vw, 2rem);
+  }
+
+  .comapny__logo {
+    margin: auto 1vw;
+  }
+
+  .main_dashboard {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .main_dashboard_sub__display__stats {
+    min-width: 4vw;
+    min-height: 4vw;
+  }
+
+  #main_dashboard__charts .main_dashboard_sub__display {
+    grid-gap: 1vw;
+  }
+
+  .main_dashboard_sub__display__stats {
+    padding: 1.5vw;
+  }
+
+  .main_dashboard_sub__display {
+    min-width: 20vw;
+    min-height: 25vw;
+    /* margin: 2vw; */
+    padding: 2vw 0;
+  }
+
+  #main_dashboard__orders .main_dashboard_sub__display {
+    min-height: 25vw;
+  }
+
+  #main_dashboard__sales {
+    width: 35vw;
+  }
+
+  .main_dashboard_sub__display__stats__value {
+    font-size: 1rem;
+  }
+
+  .main_dashboard_sub__display__stats__title {
+    font-size: 1rem;
+  }
+
+  .main_dashboard_sub__display__order__order_list {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+  }
+
+  .main_dashboard_sub {
+    margin: auto;
+    padding: 1vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .main_dashboard_sub__display {
+    padding: 1vw 0;
+  }
+
+  .main_dashboard {
+    margin: 1vw auto;
+  }
+
+  .main_dashboard_sub__display {
+    min-width: 20vw;
+    min-height: 30vh;
+    /* height: 30vh; */
+  }
+
+  .main_dashboard_sub__display__stats {
+    padding: 1vw;
+  }
+
+  #main_dashboard__orders .main_dashboard_sub__display {
+    min-height: 25vh;
+  }
+
+  .company__details__name {
+    font-size: 1.2rem;
+  }
+
+  .main_dashboard_sub__display {
+    margin: 1vw;
+  }
+
+  /* Dashboard 2 */
+  .tr {
+    width: 36vw;
+  }
+
+  .main_dashboard_sub__display__table {
+    font-size: 1.2rem;
+  }
+  .main_dashboard_sub__display__table__content {
+    max-height: 20vh;
+    min-height: 25vh;
+  }
+
+  /* My Products */
+  #my_product_catalog {
+    max-width: 20vw;
+    overflow: hidden;
+  }
+
+  .main_dashboard_sub__display__stats__title {
+    font-size: 0.8rem;
+  }
+
+  .my_products_product {
+    padding: 0.5vw;
+  }
+
+  .product_image {
+    height: 10vh;
+  }
+
+  #main_dashboard__charts {
+    order: 3;
+  }
+
+  #main_dashboard__details {
+    order: 1;
+  }
+
+  #main_dashboard__sales {
+    order: 2;
+  }
+
+  #main_dashboard__details {
+    min-width: 25vw;
+    min-height: 100%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .main_dashboard_sub__display__stats {
+    min-width: 6vw;
+    min-height: 6vw;
+  }
+
+  .main_dashboard_sub__display__stats__value,
+  .main_dashboard_sub__display__stats__title,
+  .main_dashboard_sub__display__stats__image {
+    font-size: 1.3rem;
+  }
+
+  .my_products_product {
+    padding: 0.5vw;
+  }
+
+  .product_image {
+    height: 10vh;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 1080px) {
+  .main_dashboard_sub__title {
+    font-size: 1.5rem;
+  }
+
+  .main_dashboard_sub__display__stats__value,
+  .main_dashboard_sub__display__stats__title,
+  .main_dashboard_sub__display__stats__image {
+    font-size: 1.5rem;
+  }
+
+  .my_products_product {
+    padding: 0.5vw;
+  }
+
+  .product_image {
+    height: 10vh;
+  }
+
+  #products_view_more {
+    height: 80%;
+  }
+
+  .my_products_product__title,
+  .product_rating {
+    font-size: 1.4rem;
+  }
+
+  .my_products_product__more,
+  .my_products_product__more__arrow {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+  .main_dashboard {
+    margin: 1vw auto;
+  }
+
+  .main_dashboard_sub__display {
+    min-width: 20vw;
+    min-height: 30vh;
+    /* height: 30vh; */
+  }
+
+  .main_dashboard_sub__display__stats {
+    padding: 1vw;
+  }
+
+  #main_dashboard__orders .main_dashboard_sub__display {
+    min-height: 25vh;
+  }
+  .main_dashboard_sub__title {
+    font-size: 1.5rem;
+  }
+
+  .main_dashboard_sub__display__stats__value,
+  .main_dashboard_sub__display__stats__title,
+  .main_dashboard_sub__display__stats__image {
+    font-size: 1.5rem;
+  }
+
+  .main_dashboard_sub__display__order__value {
+    font-size: 2.5rem;
+  }
+
+  .main_dashboard_sub__display__order__order_list {
+    font-size: 1.6rem;
+  }
+
+  .company__details__name {
+    font-size: 1.5rem;
+  }
+
+  .company__details__tag_line {
+    font-size: 1.2rem;
+  }
+
+  .company .comapny__logo {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .main_dashboard_sub__display__text {
+    font-size: 2.4rem;
+  }
+
+  #get_in_touch {
+    font-size: 2rem;
+  }
+
+  #question-mark {
+    font-size: 6rem;
+  }
+
+  .my_products_product {
+    padding: 0.5vw;
+  }
+
+  .product_image {
+    height: 10vh;
+  }
+
+  .my_products_product__title,
+  .product_rating {
+    font-size: 1.4rem;
+  }
+
+  .my_products_product__more,
+  .my_products_product__more__arrow {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 2560px) and (min-height: 1440px) {
+  .main_dashboard_sub__title {
+    font-size: 2rem;
+  }
+
+  .main_dashboard_sub__display__stats__value,
+  .main_dashboard_sub__display__stats__title,
+  .main_dashboard_sub__display__stats__image {
+    font-size: 1.8rem;
+  }
+
+  .main_dashboard_sub__display__order__value {
+    font-size: 3rem;
+  }
+
+  .main_dashboard_sub__display__order__order_list {
+    font-size: 2.5rem;
+  }
+
+  .main_dashboard_sub__display__table {
+    font-size: 1.6rem;
+  }
+
+  .order_details {
+    font-size: 1.6rem;
+  }
+
+  .main_dashboard_sub__display__text {
+    font-size: 2.8rem;
+  }
+
+  #get_in_touch {
+    font-size: 2.6rem;
+  }
+
+  #question-mark {
+    font-size: 6rem;
+  }
+
+  .my_products_product {
+    padding: 0.5vw;
+  }
+
+  .product_image {
+    height: 10vh;
+  }
+
+  .my_products_product__title,
+  .product_rating {
+    font-size: 1.8rem;
+  }
+
+  .my_products_product__more,
+  .my_products_product__more__arrow {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 3840px) and (min-height: 2160px) {
+  .main_dashboard_sub__title {
+    font-size: 3.5rem;
+  }
+
+  .main_dashboard_sub__display__stats__value,
+  .main_dashboard_sub__display__stats__title,
+  .main_dashboard_sub__display__stats__image {
+    font-size: 2.8rem;
+  }
+
+  .main_dashboard_sub__display__order__value {
+    font-size: 5rem;
+  }
+
+  .main_dashboard_sub__display__order__order_list {
+    font-size: 4rem;
+  }
+
+  .company__details__name {
+    font-size: 4rem;
+  }
+
+  .company__details__tag_line {
+    font-size: 3rem;
+  }
+
+  .main_dashboard_sub__display__text {
+    font-size: 4rem;
+  }
+
+  /* .main_dashboard_sub__display__table, .main_dashboard_sub__display{
+        font-size: 5rem;
+    } */
+
+  #get_in_touch {
+    font-size: 3.8rem;
+  }
+
+  #question-mark {
+    font-size: 12rem;
+  }
+
+  .main_dashboard_sub__display__table__design {
+    font-size: 2.8rem;
+  }
+
+  .tr,
+  .order_details {
+    font-size: 2.4rem;
+  }
+
+  /* Products */
+  .my_products_product {
+    padding: 0.5vw;
+  }
+
+  .product_image {
+    height: 10vh;
+  }
+
+  .my_products_product__title,
+  .product_rating {
+    font-size: 1.8rem;
+  }
+
+  .my_products_product__more,
+  .my_products_product__more__arrow {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-aspect-ratio: 2048/1080) {
+  .main_dashboard_sub__display {
+    min-height: 35vh;
+  }
+
+  #main_dashboard__orders .main_dashboard_sub__display {
+    min-height: 35vh;
+  }
+
+  /* Dashboard part 2 */
+  .tr {
+    width: 36vw;
+  }
+
+  .main_dashboard_sub__display__table {
+    font-size: 1.2rem;
+  }
+  .main_dashboard_sub__display__table__content {
+    max-height: 20vh;
+    min-height: 30vh;
+  }
+}
+
+/* Get in Touch */
+.color-neon-600 {
+  color: var(--neon--blue----600);
+}
+
+#query_display {
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: var(--neon--blue----700);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main_dashboard_sub__display__text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#get_in_touch {
+  font-size: 1.6rem;
+}
+
+.my_products_product__title {
+  text-align: center;
+  font-family: Roboto;
+  /* font-size: 20px; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* End of Dashboard Partner */
+
+/* Company Details */
+.main_dashboard_sub__details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: inherit;
+  /* border: solid black 1px; */
+  width: 100%;
+}
+
+.main_dashboard_sub__detail {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 90%;
+  /* margin: 1vh auto; */
+  font-family: Roboto;
+}
+
+.main_dashboard_sub__detail__title {
+  color: #000;
+  text-align: left;
+  font-family: Roboto;
+  /* font-size: 24px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  min-width: 35%;
+  max-width: 40%;
+  font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.main_dashboard_sub__detail__value {
+  color: #000;
+  text-align: left;
+  font-family: Roboto;
+  /* font-size: 24px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  min-width: 55%;
+  max-width: 60%;
+  font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.main_dashboar_sales {
+  order: 2;
+}
+
+.main_dashboard__charts {
+  order: 3;
+}
+
+/* #main_dashboard_2 {
+  justify-content: start;
+  align-items: start;
+  flex-wrap: nowrap;
+} */
+
+#main_company_contact,
+#main_customer_contact {
+  width: fit-content;
+  justify-content: start;
+}
+
+/* Profile Dashboard 2 */
+.main_dashboard_sub__display__title {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: clamp(1.2rem, 1.2vw, 2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.main_dashboard_sub__display {
+  height: 100%;
+}
+
+.main_dashboard_sub__display__details {
+  display: grid;
+  grid-template-columns: 15% 80%;
+  /* min-height: 20%; */
+  /* background: green; */
+  width: 70%;
+  grid-column-gap: 5%;
+}
+
+.main_dashboard_sub__display__details__container {
+  min-height: 80%;
+}
+
+.main_dashboard_sub__display__height {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main_dashboard_sub__display__details__icon {
+  background-color: var(--shading----300);
+  /* min-width: 10%;
+  max-width: 15%; */
+  min-height: 3vw;
+  min-width: 3vw;
+  border-radius: 50%;
+  color: #0564a2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Font Awesome 6 brand";
+  /* font-size: 24px; */
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.main_dashboard_sub__display__details__info {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

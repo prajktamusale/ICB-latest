@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* ------------------------------------------------- */
+/* Particular Event */
+/* ------------------------------------------------- */
+*{
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* banner */
+.peBanner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 80px; */
+}
+.peHeading{
+    font-style: normal;
+    font-weight: 420;
+    font-family: 'Poppins';
+    font-size: 7.5vw;
+    letter-spacing: .7px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.peSub{
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size: 2.3vw;
+    font-family: 'Poppins';
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.editbtn, .deletebtn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #1a1a1a;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    transition: .5s;
+}
+.editbtn img, .deletebtn img{
+    width: 50px;
+}
+.editbtn{
+    left: 15px;
+}
+.deletebtn{
+    right: 15px;
+}
+.editbtn:hover, .deletebtn:hover{
+    background: #ed1c5b;
+    box-shadow: 0 0 20px 7px #ed1c5b;
+}
+
+/* details list  */
+.peDetails{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+}
+.peList p{
+    padding-left: 10px;
+    font-size: 2.6vw;
+}
+.peList{
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    width: 40%;
+    font-size: 3.5vw;
+}
+
+/* Enroled members */
+.peEnrol{
+    width: 100%;
+}
+.peHead{
+    box-sizing: border-box;
+    background: #3D3D3D;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding: 3.5px 12px 3.5px 12px;
+}
+.peBody{
+    padding: 10px 12px 10px 8px;
+    background: linear-gradient(180deg, #464646 0%, rgba(217, 217, 217, 0.6) 100%);
+    border-bottom: 1px solid #D9D9D9; 
+    max-height: 150px;
+    overflow-x: hidden;
+}
+.peHead h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 370;
+    font-size: 4vw;
+    color: #FFFFFF;
+}
+.peList i{
+    font-size: 3.5vw;
+}
+.eRow{
+    width: 100%;
+    display: flex;
+    /* padding: 0 5px 0 5px ; */
+    align-items: center;
+    /* justify-content: space-between; */
+    align-content: stretch;
+}
+.eName,.eNum{
+    margin: 4px;
+    padding: 4px;
+    padding-left: 6px;
+    font-size: 3.5vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: #D9D9D9;
+    border-radius: 5px;
+    width: 32%;
+}
+.eNameAttended, .eNumAttended{
+    background: #00ba00;
+}
+.peBody i{
+    padding-left: 4px;
+    font-size: 4.5vw;
+}
+
+.eventPopup {
+    display: none;
+    width: 700px;
+    /* min-height: 400px; */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    transition: .3s;
+}
+
+.eventPopup .pop-text {
+    color: #111;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.eventPopup .event-form .input-group {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.eventPopup .event-form .input-group input, .eventPopup .event-form .input-group select{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.eventPopup .event-form .input-group select {
+    padding: 0 17px;
+}
+
+.eventPopup .event-form .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+
+.eventPopup .event-form .input-group select:focus, .container .login-email .input-group select:valid {
+    border-color: #a29bfe;
+}
+
+.eventPopup .event-form .input-group .btn {
+    display: block;
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #a29bfe;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eventPopup .event-form .input-group .btn:hover {
+    transform: translate(-50%, -5px);
+    background: #6c5ce7;
+}
+
+.closer{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    background: rgba(0,0,0,.5);
+    z-index: 5;
+}
+
+
+.deletePopup{
+    display: none;
+    width: 500px;
+    /* height: 500px; */
+    min-height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.3);
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    transition: .3s;
+    overflow: hidden;
+}
+
+.deletePopup .warning{
+    width: 100%;
+    height: 130px;
+    background: #f55555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deletePopup .warning img{
+    width: 100px;
+}
+
+.deletePopup .warning-content{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.warning-content h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.warning-content p {
+    padding: 20px 0 10px;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.deletePopup .delete-form .input-group {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.deletePopup .delete-form .input-group .btn {
+    display: block;
+    width: 50%;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #f55555;
+    border-radius: 30px;
+    /* font-family: 'Poppins'; */
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.deletePopup .delete-form .input-group .btn:hover {
+    transform: translate(-50%, -5px);
+    background: #ff0000;
+}
+
+@media only screen and (max-width: 770px) {
+    .eventPopup {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .editbtn, .deletebtn{
+        width: 40px;
+        height: 40px;
+    }
+    .editbtn img, .deletebtn img{
+        width: 40px;
+    }
+    .editbtn{
+        left: 10px;
+    }
+    .deletebtn{
+        right: 10px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 570px) {
+    .eventPopup {
+        width: 400px;
+    }
+    .deletePopup {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .eventPopup {
+        width: calc(100vw - 15%);
+        padding: 30px 20px;
+    }
+    .eventPopup .event-form .input-group {
+        height: 35px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    .eventPopup .event-form .input-group input {
+        padding: 15px 15px;
+    }
+    .eventPopup .event-form .input-group .btn {
+        width: 50%;
+        margin-top: 5px;
+        padding: 5px 20px;
+    }
+    .deletePopup {
+        width: calc(100vw - 15%);
+    }
+    .warning-content p{
+        padding: 0 10px;
+    }
+    .editbtn, .deletebtn{
+        width: 30px;
+        height: 30px;
+    }
+    .editbtn img, .deletebtn img{
+        width: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .peList i{
+        font-size: 2.5vw;
+    }
+    .peDetails{
+        padding: 20px;
+    }
+    .peList p,.peList{
+        font-size: 2vw;
+    }
+    .peHeading{
+        margin-top: 40px;
+    }
+    .peSub{
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+    /* Enroled */
+    .peHead h2{
+        font-size: 3.5vw;
+        padding: 6px 20px;
+    }
+    .peBody{
+        max-height: 250px;
+        padding: 10px 32px 10px 28px;
+    }
+    .eName,.eNum{
+        width: 37%;
+        padding: 5px 10px;
+        font-size: 3vw;
+        margin: 6px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .peSub{
+        padding-bottom: 5px;
+    }
+    .peList p{
+        font-size: 1.8vw;
+        margin: 7px 0;
+    }
+    .peHead h2{
+        font-size: 3vw;
+        padding: 10px 20px;
+    }
+    .peEnrol i{
+        font-size: 4vw;
+        margin-left: 5px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .peSub{
+        padding-bottom: 30px;
+    }
+    .eName,.eNum{
+        padding: 8px;
+        padding-left: 20px;
+        font-size: 2.5vw;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+    .eRow{
+        margin-top: 8px;
+    }
+    .peList{
+        padding: 10px;
+    }
+    .peList p{
+        font-size: 1.9vw;
+        padding-left:25px;
+    }
+    .peDetails{
+        padding: 18px 50px 10px 50px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+/* ------------------------------------------------- */
+/* Admin Event  */
+/* ------------------------------------------------- */
+
+.aeBox img{
+    position: absolute;
+    right: 20px;
+    height: 18px;
+}
+.hiddenText{
+    position: absolute;
+    right: 20px;
+    margin-bottom: 80px;
+    font-size: 2vw;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.eventNavbar{
+    display: flex;
+}
+
+.eButton {
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+  color: #000;
+  font-weight: 450;
+  font-family: 'Poppins';
+  background: #FFFFFF;
+  display: inline-flex;
+  font-size: 4.5vw;
+  height: auto;
+  justify-content: center;
+  min-width: 50%;
+  padding: 5px 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pastEvent, .upcomingEvent{
+    border-top: 1.5px solid #C5C4C4;
+    background-color: #D9D9D9;
+    max-height: 200px;
+    padding-top: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.eventRow{
+    align-items: center;
+    display: flex;
+    margin: 10px 15px;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    height: auto;
+}
+.eventColor{
+    height:4vw;
+    aspect-ratio : 1 / 1;
+    border-radius: 50px;
+}
+.eventName, .eventDate{
+    font-size: 3vw;
+    padding: 0 5px;
+    font-weight: 400;
+}
+.eventDate{
+    margin-left: auto;
+}
+.aeForm{
+    background-color: #D9D9D9;
+    padding: 5px;
+}
+.aeRow{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+.eDate,.eMonth{
+    width: 20%;
+}
+.aeBox{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.aeTitle{
+    margin-right: 5px;
+    min-width: 26%;
+    font-size: 3.8vw;
+    padding: 0 0px;
+    font-weight: 600;
+}
+.aeHead{
+    padding: 8px;
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+.aeBox input[type=text], .aeBox input[type=number], .aeBox select{
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: none;
+    font-size: 3vw;
+    align-items: center;
+    display: flex;
+    margin: 6px 2px;
+    padding: 8px 5px ;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    height: auto;
+}
+.button {
+    background-color: #0ED678;
+    border: 1px solid #0ED678;
+    color: white;
+    padding: 7.5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    border-radius: 6px;
+}
+/* button {
+    transition-duration: 0.4s;
+} */
+  
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media only screen and (min-width: 650px) {
+    .eventDate,.eventName{
+        font-size: 3vw;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+    .aeBox img{
+        position: absolute;
+        right: 35px;
+        height: 20px;
+    }
+    .aeHead{
+        padding: 20px;
+    }
+    .aeTitle{
+        font-weight: 450;
+        font-size: 4vw;
+        margin-left: 20px;
+    }
+    .eButton{
+        font-weight: 500;
+        font-size: 3vw;
+        min-width: 250px;
+        padding: 10px;
+    }
+    .eventRow{
+        margin: 20px 50px;
+        padding: 10px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .aeForm{
+        padding: 30px 0;
+    }
+    .aeBox input[type=text], .aeBox input[type=number], .aeBox select{
+        margin: 10px 20px;
+        padding: 10px;
+        font-size: 2vw;
+    }
+    .pastEvent,.upcomingEvent{
+        max-height: 500px;
+    }
+    .button{
+        margin-top: 10px;
+        font-size: 2vw;
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+    .circle-container{
+        width: 30%;
+    }
+    .aeBox img{
+        position: absolute;
+        right: 100px;
+        height: 30px;
+    }
+    .eventColor{
+        height:2.5vw;
+        aspect-ratio : 1 / 1;
+    }
+    .pastEvent,.upcomingEvent{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .graphBox{
+        justify-content: space-evenly;
+    }
+    .achHeading,.aeHead{
+        font-size: 3.5vw;
+        font-weight: 400;
+        margin: 20px;
+        margin-right: 0;
+    }
+    .gData1,.gData2{
+        width: 50%;
+    }
+    .achievements{
+        width: 100%;
+    }
+    .button{
+        padding: 15px 32px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    .eButton{
+        padding: 15px 50px;
+        font-weight: 450;
+        font-size: 2vw;
+    }
+    .aeTitle{
+        margin-left: 80px;
+        font-size: 3vw;
+    }
+    .aeForm{
+        padding: 50px 0;
+    }
+    .eventName,.eventDate{
+        padding-left: 20px;
+        font-size: 2vw;
+    }
+    .aeBox input[type=text], .aeBox input[type=number], .aeBox select{
+        border-radius: 15px;
+        padding: 15px;
+        margin: 15px 80px 15px 0;
+        font-weight: 200;
+    }
+    .eventRow{
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px 100px;
+    }
+}

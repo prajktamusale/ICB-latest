@@ -1,0 +1,851 @@
+/* Common Properties */
+body{
+    background-color: #ECECEC;
+}
+
+a, a:hover, a:active, a:visited, a:focus{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover{
+    cursor: hand;
+}
+
+.sales{
+    background: #D9D9D9;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    width: 90vw;
+    margin: 2vh auto;
+    /* margin:  0; */
+    border-radius: 12px;
+    /* max-height: 60vh; */
+    /* overflow-y:scroll; */
+    /* clip-path: polygon(80% 0%, 80% 100%, 100% 100%, 100% 0%); */
+}
+
+.sales-tab{
+    display: flex;
+    background:#E4E6ED;
+}
+
+.table{
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.active-option{
+    color:#2196F3;
+    border-bottom: solid #2196F3;
+}
+
+.table, .tr, .td, .th {
+    width: 100%;
+    text-align: left;
+    font-weight:500;
+}
+
+.tr{
+    background:#FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    /* border-bottom: solid 1px #87898a; */
+    margin-bottom: 6px;
+    box-shadow:1px 1px 2px  #E4E6ED;
+}
+
+.sale-tab{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1vh 0;
+    transition: all ease-in-out 0.25s;
+    border-radius: inherit;
+}
+
+.sale-tab:hover{
+    background-color: #D9D9D9;
+    border-radius: inherit;
+
+}
+
+.sales-table {
+    width: 90%;
+    margin: 2vh auto;
+    background: #D9D9D9;
+}
+
+.th, .td{
+    margin: 2px;
+    /* border: solid gray 1px; */
+    padding: 2px;
+    /* border-width: 0 1px 0 0; */
+}
+
+.tr .th{
+    background: #D9D9D9;
+    text-align: center;
+
+}
+
+.th{
+    font-size: clamp(1rem, 1.2vw, 2rem);
+    border-radius: 2px;
+    font-weight: 700;
+}
+
+.td{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(1rem, 1vw, 1.8rem);
+}
+
+.prospectus_product_name{
+    width: 90%;
+}
+
+.prospectus_qty{
+    width: 50%;
+}
+
+.prospectus_cust_id{
+    width: 40%;
+}
+
+.prospectus_cust_name{
+    width:100%;
+    word-wrap: break-word;
+}
+
+.prospectus_email{
+    width: 120%;
+}
+
+.prospectus_status{
+    width: 60%;
+}
+
+.prospectus_options{
+    width: 50%;
+}
+
+.prospectus_table_select{
+    font-size: clamp(1rem, 1.2vw, 2rem);
+    /* width: 0%; */
+}
+
+.select_features_0{
+    background-color: red;
+    /* color:#ffffff; */
+    border: none;
+}
+
+.select_features_1{
+    background-color: yellow;
+    /* color:#ffffff; */
+    border: none;
+}
+
+.select_features_2{
+    background-color: lightgreen;
+    /* color:#ffffff; */
+    border: none;
+}
+
+
+.tr.th prospectus_options{
+    padding-left: 10px;
+}
+
+.td{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+
+.sales-table table tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.td:nth-child(){
+    
+}
+
+.table-hide{
+    display: none;
+}
+
+#table-2 .tr .th:nth-child(1), #table-2 .tr .td:nth-child(1){
+    width: 2;
+}
+
+#table-2 .total-amount{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+}
+
+#table-2 .total-amount div{
+
+}
+
+button{
+    width: 10vw;
+    border:solid transparent 1px;
+    padding: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all ease-in-out 0.25s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: #D9D9D9;
+}
+
+.add-details, #edit-form-details, #show-form-details{
+    width: 60vw;
+    height: fit-content;
+    background: #D9D9D9;
+    position: fixed;
+    top: 10vh;
+    /* margin: 0 20vw; */
+    margin:auto;
+    left: 20vw;
+    border-radius: 20px;
+    max-height: 80vh;
+    overflow-y: scroll;
+    display: none;
+}
+
+.close_add-details{
+    position: relative;
+    left: 90%;
+    top: 10%;
+    width: 30px;
+    height: 30px;
+}
+
+.add-details__title{
+    text-align: center;
+}
+
+.add_new, .btn-prospectus{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_new{
+    margin: 10px auto;
+}
+
+.add_new img{
+    border-radius: 50%;
+    width: 10;
+}
+
+.whatsapp-image{
+    height: 30px;
+}
+
+.customer_contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+.prospectus-icons{
+    width: clamp(1rem, 2vw, 2rem);
+}
+
+.add-details form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+}
+
+.add-details form label{
+    margin: 1rem;
+    text-align: left;
+}
+
+#edit_image{
+    width: 100%;
+    height: auto;
+}
+
+
+label{
+    width: 30vw;
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_label div{
+    width: 10vw;
+    /* border: solid black 1px; */
+}
+
+.form-input{
+    width: 15vw;
+    /* position: relative; */
+    /* left: 100px; */
+}
+
+/* Edit details form */
+#edit-form-details{
+    /* display: block; */
+    width: 60vw;
+}
+
+.order_edit_form{
+    padding:20px 0 20px 20px;
+}
+
+.order_edit_form div h2{
+    text-align: center;
+}
+
+.edit_order_area{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.edit_order_area__image{
+    width:20%;
+}
+
+.edit_order_area__details{
+    width: 50%;
+}
+
+.edit_order_area__details div{
+    width: 80%;
+    margin: 10px auto;
+    /* border: solid black 1px; */
+    text-align: left !important;
+}
+
+.edit_order_area__details__product_id{
+    display: flex;
+    font-size: clamp(1.2rem, 1.2vw, 2rem);
+}
+
+.edit_order_area__details__product_id span{
+    font-weight: 600;
+}
+
+.edit_order_area__details__product_id__details{
+    width: fit-content;
+}
+
+.edit_order_area__details__product_id__details{
+    width: 60%;
+}
+
+.input_details, .input_details_50, .data_details, .data_details_50{
+    border-radius: 5px;
+    border:solid #87898a 1px;
+    padding: 2px;
+    font-size: 1rem;
+    /* margin: 2vh 1vw ; */
+}
+
+.input_details, .data_details{
+    width: 80%;
+}
+
+
+.input_details_50,  .data_details_50{
+    width: 40%;
+}
+
+.edit_customer_details{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.edit_customer_details input{
+    margin: 6px 0;
+}
+
+/* For all buttons */
+.form_btn{
+    font-size:1.1rem;
+    background: lightskyblue;
+    border-radius: 12px;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 2px 2px 4px #999999;
+    margin: 10px auto;
+}
+
+/* For update */
+#edit_update_btn{
+    background:#41D950;
+}
+
+/* Making the compnents sticky */
+.make-sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+}
+
+#edit_form_close{
+    position: relative;
+    right: 0px;
+    top:0px;
+}
+
+/* Sold Table*/
+/* Defining the column width */
+.sold_check_column{
+    /* width: fit-content; */
+    width: 1vw;
+    /* overflow-x: hidden; */
+
+}
+
+.sold_product_name{
+    width:90%;
+    /* width: 1vw; */
+}
+
+.sold_check_column input[type=checkbox]{
+    width: 1vw;
+}
+
+.sold_quantity{
+    /* width: 6vw; */
+    width: 25%;
+
+}
+
+.sold_customer_id{
+    width: 50%;
+}
+
+.sold_customer_details{
+    width: 100%;
+}
+
+.sold_total_price{
+    width: 60%;
+}
+
+.sold_pay{
+    width:50%;
+    padding: 0 2%;
+}
+
+.sold_status{
+    width: 50%;
+}
+
+.total-amount{
+    font-size: clamp(1.2rem, 1.2vw, 2vw);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.total-amount div {
+    display: flex;
+}
+
+#payment-amount{
+    color: #0F8ED6;
+    padding: 0 10px;
+}
+
+/* Customer Details div */
+.sold_customer_details_all{
+    flex-wrap: wrap;
+}
+
+.sold_customer_details__name{
+    width:fit-content;
+    padding: 2% 6%;
+}
+
+.customer_details_icon{
+    width: fit-content;
+    transition: all 0.5s ease-in-out;    
+}
+
+.sold_customer_details_visible{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sold_customer_details_hidden{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    transition: height 0.5s ease-in-out;    
+    overflow:hidden;
+    height: 0px;
+}
+
+.detail_display{
+    height: 3rem;
+}
+
+.btn_rotate{
+    transform: rotate(180deg);
+}
+
+/* Prospectus Table */
+.prospectus_product_image{
+    display: none;
+}
+
+.btn-prospectus span{
+    display: none;
+}
+
+.prospectus_product_image__img{
+    width: 100%;
+    height: 80%;
+    margin: 5%;
+    background-color: #D9D9D9;
+}
+
+.total-amount{
+    padding: 0 5%;
+    justify-content: end;
+    /* display: none; */
+    opacity: 0;
+}
+
+.btn-prospectus-editing{
+    background:#0F8ED6;
+    color: #ffffff;
+}
+
+.btn-prospectus-expand{
+    background:#41D950;
+    color: #ffffff;    
+}
+
+.btn-prospectus-editing span, .btn-prospectus-expand span{
+    padding: 2px;
+}
+
+@media (max-width:1439.8px){
+    #prospectus_table_header{
+        display: none;
+    }
+
+    .tr_propspectus_order{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .prospectus_product_image{
+        /* display: block; */
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prospectus_product_details{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .prospectus_product_name{
+        width: 60%;
+        order: 1;
+        display: flex;
+        justify-content: space-between;
+        padding:0 10%;
+        font-weight: 600;
+        padding: 0px;
+    }
+
+    .prospectus_qty{
+        order:2;
+        width: 15%;
+        margin-left: 2.5%;
+    }
+
+    .prospectus_cust_id{
+        display: none;
+        text-align: left;
+    }
+
+    .prospectus_cust_name{
+        width: 60%;
+        order:3;
+        display: block;
+        text-align:left;
+        color: #7A7979;
+        font-weight: 600;
+        font-size: clamp(1.2rem, 2vw, 2rem);
+    }
+
+    .prospectus_phone{
+        width: 35%;
+        order:4;
+        margin-left: 2%;
+        font-size: clamp(1.2rem, 2vw, 2rem);
+    }
+
+    .prospectus_email{
+        width: 70%;
+        order:5;
+        display: block;
+        text-align: left;
+    }
+
+    .prospectus_status{
+        width:25%;
+        margin-left: 2%;
+        order: 6;
+    }
+
+    .prospectus_options{
+        width: 100%;
+        order: 7;
+    }
+
+    .btn-prospectus{
+        width: max-content;
+        padding: 6px 12px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-prospectus span{
+        display: block;
+        font-size: clamp(1rem, 1.2vw, 1.6rem);
+        margin: 0 2px;
+    }
+
+    #table-2 .total-amount{
+        justify-content: space-around;
+    }
+
+    .total-amount{
+        background: linear-gradient(90deg, #004F73, #44B7FE);
+        color: #ffffff;
+        padding: 0 ;
+        justify-content: space-between;
+    }
+}
+
+.sale-tab{
+    box-shadow: 1px 1px 2px #E4E6ED;
+}
+
+#sale-tab-1{
+    border-radius: 4px 0 0 4px;
+}
+
+#sale-tab-2{
+    border-radius: 0 4px 4px 0;
+}
+
+.prospectus_field_name{
+    color:#D9D9D9;
+    display: none;
+}
+
+@media (max-width:900px){
+    .tr_propspectus_order{
+        width:100%;
+    }
+
+    .prospectus_product_image{
+        display: block;
+        width: 30%;
+    }
+
+    .prospectus_product_details{
+        padding: 0 2%;
+        width: 70%;
+        flex-wrap: wrap;
+        font-size: clamp(1rem, 1.2vw, 1.5rem);
+    }
+
+    .prospectus_product_name{
+        width: 50%;
+        order: 1;
+        display: flex;
+        justify-content: space-between;
+        padding:0%;
+    }
+
+    .prospectus_product_name span{
+        font-size: clamp(1.2rem, 2vw, 2rem);
+    }
+
+    .prospectus_qty{
+        order:2;
+        width: 15%;
+        margin-left: 2.5%;
+        font-size: clamp(1.2rem, 1.2vw, 1.5rem);
+    }
+
+    .prospectus_qty .prospectus_field_name{
+        display: block;
+    }
+
+    .prospectus_cust_name{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .prospectus_phone{
+        width: 35%;
+    }
+
+    .prospectus_phone a {
+        padding: 0 6px;
+    }
+
+    .prospectus_email{
+        width: 60%;
+    }
+
+    .prospectus_status{
+        width:25%;
+    }
+
+    .prospectus_options{
+        width: 89%;
+    }
+
+
+    /* Sales Table for Tablet */
+    #sold_table{
+        display: none;
+    }
+
+    /* sold_table_responsive */
+
+    .total-amount{
+        width: 100vw;
+    }
+}
+
+@media (max-width:600px) {
+    .section-search{
+        padding-top: 0vh;
+        padding-bottom: 1vh;
+    }
+
+    .sales{
+        max-height: 75vh;
+        width: 95vw;
+        margin: auto;
+        background: #D9D9D9;
+    }
+
+    .sales-table{
+        width:95%;
+        border-radius: 12px;
+    }
+
+    .prospectus_field_name{
+        display: block;
+    }
+
+    .prospectus_product_name{
+        width: 50%;
+        order: 1;
+        display: flex;
+        justify-content: space-between;
+        padding:2%;
+        flex-direction: row;
+    }
+
+    .prospectus_qty{
+        order:2;
+        width: 15%;
+        margin-left: 2.5%;
+        font-size: clamp(1rem, 1.2vw, 1.5rem);
+
+    }
+
+    .prospectus_cust_name{
+        width: 70%;
+        text-align:left;
+        display:block;
+        margin:0 2%;
+    }
+
+    .prospectus_phone{
+        width: 55%;
+        order:6;
+    }
+
+    .prospectus_email{
+        width: 60%;
+        order:5;
+    }
+
+    .prospectus_status{
+        width:30%;
+    }
+
+    .prospectus_options{
+        width: 89%;
+    }
+
+    #edit-form-details{
+        width: 80vw;
+        left: 10vw;
+    }
+
+    /* Prospectus:Date entered */
+    .prospectus_cust_name{
+        width: 40%;
+    }
+
+    .prospectus_phone {
+        /* order: 5; */
+        order: 6;
+        width: 60%;
+        font-size: clamp(1rem, 1vw, 2rem);
+    }
+
+    .prospectus_email{
+        /* order:6; */
+        order:5;
+        width: 40%;
+    }
+
+    /* Prospectus: Add New Entry */
+    .add-details{
+        width: 90vw;
+        left: 5vw;
+    }
+}

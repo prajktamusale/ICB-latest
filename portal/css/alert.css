@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  height: auto;
+  width: 100%;
+  overflow: visible;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  /* padding: 2vh; */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  font-size: 35px;
+  margin: 10px 20px;
+}
+.form-container {
+  height: auto;
+  width: 100%;
+  background: #d9d9d9;
+}
+form {
+  font-weight: bold;
+  /* background: #d9d9d9; */
+  font-size: 22px;
+  width: 70%;
+  margin: auto;
+  padding: 30px 0;
+}
+form label {
+  font-size: 1.5rem;
+  text-align: left;
+}
+form input, form textarea {
+  height: 1.7rem;
+  width: -webkit-fill-available;
+  border: none;
+  float: right;
+  outline: none;
+  border-radius: 8px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+form textarea{
+  height: 5rem;
+  padding: 5px 10px;
+}
+select {
+  height: 1.7rem;
+  width: -webkit-fill-available;
+  border: none;
+  float: right;
+  outline: none;
+  border-radius: 8px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.btn {
+  text-align: center;
+}
+.submit {
+  float: none;
+  background-color: red;
+  color: white;
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.submit:hover {
+  background-color: rgb(207, 98, 98);
+}
+@media only screen and (max-width: 900px) {
+  form{
+    width: 80%;
+  }
+  .submit {
+    margin-top: 50px;
+    width: 60%;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 768px) {
+  form{
+    width: 90%;
+  }
+  .submit {
+    margin-top: 50px;
+    width: 60%;
+    cursor: pointer;
+  }
+}

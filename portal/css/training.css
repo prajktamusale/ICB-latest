@@ -1,0 +1,143 @@
+.container {
+  width: 95vw;
+  height: 95vh;
+  padding: 2vh;
+  overflow: auto;
+  margin: 0 auto;
+}
+.head {
+  display: flex;
+}
+.head div {
+  width: 50%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 15px 0;
+  cursor: default;
+}
+
+.enrollments, .completedTrainings{
+  width: 100%;
+}
+.enrolledTraining, .completedTraining{
+  width: 100%;
+  height: 7vh;
+  margin: 2vh 0;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0;
+  display: flex;
+}
+.enrolledTrainingHeading, .completedTrainingHeading{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 100;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-family: roboto;
+}
+.enrolledTrainingData, .completedTrainingData{
+  background-color: #D9D9D9;
+  width: 10%;
+  height: 100%;
+  padding: 0;
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enrolledTrainingData img, .completedTrainingData img{
+  cursor: pointer;
+  width: 1.8rem;
+}
+
+.empty{
+  width:80%;
+  margin:40px auto;
+  padding: 25px 30px;
+  position:relative;
+  border-radius:5px;
+  /* box-shadow:0 0 10px 1px #ccc; */
+  background-color: #ebebeb;
+  border-left:5px solid #6c6c6c;
+  font-family: roboto;
+  font-weight: 100;
+}
+
+.opportunities{
+  margin: 5vh 0;
+}
+h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.book-now {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.images {
+  height: 30vh;
+  width: 450px;
+  margin: 20px;
+  position: relative;
+  border-radius: 15px;
+  background: linear-gradient(
+      180deg,
+      rgba(13, 232, 237, 0.6) 8.33%,
+      rgba(0, 249, 255, 0) 100%
+    ),
+    url(../images/trainingimg.png);
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, #0000003b 0px 3px 6px;
+  text-align: start;
+}
+
+.images h3 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.images button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 7px;
+  display: flex;
+  /* align-self: flex-end; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .head div{
+      font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .head div {
+      font-size: 1rem;
+  }
+}

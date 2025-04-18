@@ -1,0 +1,11 @@
+.bg-blue{
+    background: #2196F3 !important;
+}
+
+.bg-red{
+    background: #F00 !important;
+}
+
+.display__toggle{
+    display: flex;
+}

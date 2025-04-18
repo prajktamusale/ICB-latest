@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Modular';
+    src: url('../AdditionalFonts/adventure_subtitles-webfont.woff2') format('woff2'),
+         url('../AdditionalFonts/adventure_subtitles-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.hamBurger div {
+    background-color: #fff;
+}
+
+nav .userName {
+    color: #fff !important;
+}
+
+.comingSoon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    line-height: 7rem;
+}
+
+.comingSoon div:first-of-type {
+    color: #3168D8;
+    font-size: 5rem;
+    font-family: 'Modular';
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    animation: glow1 1s ease-in-out infinite alternate;
+    transition: 1s linear;
+}
+
+.comingSoon div:last-of-type {
+    color: #7900FF;
+    font-family: 'Modular';
+    font-size: 9rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: glow2 1s ease-in-out infinite alternate;
+    transition: 1s linear;
+}
+
+@-webkit-keyframes glow1 {
+    from {
+      text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 3px #3168D8, 0 0 4px #3168D8, 0 0 5px #3168D8, 0 0 6px #3168D8, 0 0 7px #3168D8;
+    }
+    
+    to {
+      text-shadow: 0 0 1px #fff, 0 0 3px #3168D8, 0 0 4px #3168D8, 0 0 5px #3168D8, 0 0 6px #3168D8, 0 0 7px #3168D8, 0 0 8px #3168D8;
+    }
+}
+
+@-webkit-keyframes glow2 {
+    from {
+      text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 3px #7900FF, 0 0 4px #7900FF, 0 0 5px #7900FF, 0 0 6px #7900FF, 0 0 7px #7900FF;
+    }
+    
+    to {
+      text-shadow: 0 0 1px #fff, 0 0 3px #7900FF, 0 0 4px #7900FF, 0 0 5px #7900FF, 0 0 6px #7900FF, 0 0 7px #7900FF, 0 0 8px #7900FF;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .comingSoon{
+        line-height: 5.6rem;
+    }
+    .comingSoon div:first-of-type {
+        font-size: 4rem;
+    }
+    
+    .comingSoon div:last-of-type {
+        font-size: 7.2rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .comingSoon{
+        line-height: 4.8rem;
+    }
+    .comingSoon div:first-of-type {
+        font-size: 3.5rem;
+    }
+    
+    .comingSoon div:last-of-type {
+        font-size: 6.3rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .comingSoon{
+        line-height: 4.5rem;
+    }
+    .comingSoon div:first-of-type {
+        font-size: 3.15rem;
+    }
+    
+    .comingSoon div:last-of-type {
+        font-size: 5.85rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .comingSoon{
+        line-height: 4.2rem;
+    }
+    .comingSoon div:first-of-type {
+        font-size: 2.8rem;
+    }
+    
+    .comingSoon div:last-of-type {
+        font-size: 5.4rem;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .comingSoon{
+        line-height: 3.85rem;
+    }
+    .comingSoon div:first-of-type {
+        font-size: 2.45rem;
+    }
+    
+    .comingSoon div:last-of-type {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .comingSoon{
+        line-height: 3.3rem;
+    }
+    .comingSoon div:first-of-type {
+        font-size: 2rem;
+    }
+    
+    .comingSoon div:last-of-type {
+        font-size: 4.5rem;
+    }
+}

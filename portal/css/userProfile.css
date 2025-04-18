@@ -1,0 +1,8 @@
+.container {
+    height: fit-content;
+    overflow: visible;
+}
+
+.bio{
+    width: 60%;
+}

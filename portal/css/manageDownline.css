@@ -1,0 +1,426 @@
+body{
+    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+.downline-top{
+    width: 100%;
+    display: flex;
+    overflow: hidden !important;
+}
+
+#downline_details{
+    width: 70vw;
+    min-width: 70vw;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    background:#3C91F5;
+    font-weight: 600;
+    padding: 10vh 10vw  6vh 4vw;
+    color: #ffffff;
+    height: 20vh;
+    z-index: 1;
+    position: relative;
+    left:0;
+    padding-right: 220px;
+}
+
+#downline_details__username{
+    font-size: clamp(1.9rem, 1.4vw, 2rem);
+}
+
+#downline_details__id{
+    font-size: clamp(1.2rem, 1.2vw, 2rem);
+}
+
+#downline_income{
+    width: 60vw;
+    position: relative;
+    right: 0;
+}
+
+#downline_income{
+    width: 100vw;
+    z-index: 0;
+    left: -70vw;
+    padding-left: 60vw;
+    padding-right: 10vw;
+    padding-top:10vh;
+    background:linear-gradient( to left, rgba(83,60, 245, 1), rgba(83,60, 245, 0));
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    font-size: clamp(1.2rem, 1.4vw, 2rem);
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+#downline_income__details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#downline_income__message{
+    margin:0;
+    width: 100%;
+}
+
+#downline_income__total{
+    font-size: clamp(1.2rem, 1.6vw, 2rem);
+    margin:-5px;
+    width: 100%;
+}
+#downline_income_sales
+{
+    margin: 0%;
+    width: 100%;
+}
+#downline_income__sales_amount{
+
+    margin: -5px;  
+    width: 100%;
+    
+}
+
+/* Title of the page */
+.downline_title{
+    /* width: 80vw; */
+    margin: auto;
+    font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+    position: absolute;
+    left: 30vw;
+    top: 40vh;
+    z-index: 3;
+}
+
+/* Desktop */
+/* Downline Table */
+
+
+/* .mydownline_value_col{
+    width: 10vw;
+} */
+
+
+
+@media (min-width:1024px){
+    /* .mydownline_value_col{
+        width: auto;
+    } */
+    .my_downline_table__header___right, .my_downline_table__header___right__section, .my_downline_table__header___right__col-1, .my_downline_table__header__myshare{
+        display: flex;
+    }
+
+    .my_downline_card__drop_down{
+        display: none;
+    }
+
+    .my_downline_table_message{
+        display: none;
+    }
+
+    .my_downline_table__header___right{
+        width: 90vw;
+    }
+
+    .my_downline_table__header___right__section{
+        width: 90vw;
+    }
+
+    .my_downline_table__header___right__col-1{
+        width: 80vw;
+        justify-content: space-around;
+    }
+
+    
+}
+
+/* Default state: show desktop, hide mobile */
+.desktop-view {
+    display: block !important;
+}
+
+.mobile-downline-view {
+    display: none !important;
+}
+
+/* Switch layout on small screens */
+@media screen and (max-width: 768px) {
+    .desktop-view {
+        display: none !important;
+    }
+
+    .mobile-downline-view {
+        display: block !important;
+        padding: 10px;
+    }
+    .downline_details__username{
+        font-size: 0.9rem;
+    }
+    .downline_details {
+        padding-top: 4vh;
+        clip-path: polygon(-40% 0%, 50% 0%, 0% 80%);
+    }
+    .downline_details__id{
+        font-size: 0.8rem;
+    }
+    .downline-card {
+        background: white;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .downline-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .avatar-circle {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 3px solid #2196F3;
+        flex-shrink: 0;
+    }
+
+    .info {
+        flex-grow: 1;
+    }
+
+    .username,
+    .uid,
+    .income,
+    .share {
+        font-size: 14px;
+        margin: 2px 0;
+    }
+
+    .downline-card-footer {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #666;
+    }
+
+    .share {
+        font-weight: bold;
+        color: #333;
+        text-align: right;
+    }
+}
+
+
+/* Tablet : 1024px */
+@media (max-width:1023.8px){
+    .downline-top{
+        overflow: hidden !important;
+    }
+    .my_downline_table_message{
+        display: block;
+    }
+
+    #downline_details{
+        padding-bottom: 0vh;
+        width: 100%;
+        background-color: #3C91F5;
+        color:#ffffff;
+        text-align: left;
+        
+    }
+    #downline_details__username{
+        font-size: 0.9rem;
+        font-weight:bold;
+    }
+    
+    #downline_details__id {
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+
+    #downline_income{
+        left:-70vw;
+        max-height: 90vw;
+        padding-right: 14vw;
+    }
+    #downline_income__message {
+        font-size: 0.9rem;
+        color: white;
+    }
+    #downline_income__total {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: white;
+    }
+    #downline_income__details{
+        flex-direction: column;
+        text-align: right;
+    }
+    #downline_income__sales_amount{
+        font-size: 0.75rem;        
+        font-weight: bold;
+        color: white;
+    }
+    #downline_income__sales{
+        font-size: 0.9rem;
+        font-weight: bold;
+        color:white;
+    }
+    .section-title {
+        font-size: 1.0rem;
+        text-align: center;
+        margin: -10px 0;
+    }
+    .downline_title{
+        top: 35vh;
+    }
+}
+
+@media (max-width: 900px){
+    .my_downline_table__header{
+        display: none;
+    }
+
+    .my_downline_table__header__profile_dp{
+        display: block;
+        width: 20%;
+        /* border: solid black 1px; */
+        padding: 2%;
+    }
+
+    .my_downline__card{
+        width: 90vw;
+        display: flex;
+        box-shadow: 0 4px 4px lightgrey;
+        border-radius: 5px;
+    }
+
+    .my_downline_table__header___right{
+        width: 80%;
+        /* border: solid black 1px; */
+        /* background: green; */
+    }
+
+    .my_downline_card__drop_down{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .my_downline_table__header__mobile{
+        display: none;
+    }
+
+    .my_downline_table__header___right__section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2% 0 ;
+    }
+
+    .my_downline_table__header___right__col-1{
+        width: 60%;
+    }
+
+    .my_downline_table__header__name{
+        font-size: clamp(1.5rem, 2vw, 2.5rem);
+    }
+
+    .my_downline_table__header__myshare{
+        width: 20%;
+    }
+
+    .my_downline_table__header__mobile_image{
+        width: 10%;
+        display: block;
+        /* border: solid black 1px; */
+    }
+
+    .my_downline_table__header__mobile_image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .my_downline_table__header__uid{
+        color: #C5C4C4;
+    }
+
+    .drop-down-button{
+        display: flex;
+        justify-content: end;
+        width: 90%;
+        margin: auto;
+    }
+
+    .my_downline_card__drop_down_details{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .my_downline_card__phone, .my_downline_card__email{
+        display: flex;
+    }
+
+    .my_downline_card__phone_number, .my_downline_card__email_id{
+        font-weight: 600;
+    }
+
+    .my_downline_table__header__total_income{
+        display: flex;
+    }
+    .my_downline_table__header{
+        display: none;
+    }
+    
+}
+
+
+/* Mobile Modifications */
+@media (max-width: 425px) {
+    .downline-top {
+        overflow: hidden !important;
+}
+
+    #downline_details{
+        padding-top:4vh;
+        clip-path: polygon(-90% 0%, 50% 0%, 0% 80%);    }
+    #downline_income{
+        /* width: 100vw; */
+    }
+    #downline_income{
+        left: -139vw;
+        max-height: 20vh;
+        padding-right: 12vw;
+        padding-top: 10px;
+    }
+
+    .downline_title{
+        top: 30vh;
+    }
+
+    .my_downline_table__header__uid{
+        font-size: clamp(1rem, 1vw, 1.2rem);
+    }
+
+    .my_downline_table__header__name{
+        font-size: clamp(1rem, 1.1vw, 1.2rem);
+    }
+
+    .my_downline_table__header__total_income{
+        font-size: 12px;
+    }
+
+    .my_downline_table__header__myshare{
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .my_downline_card__drop_down_details{
+        font-size: 10px;
+    }
+}
+
+  

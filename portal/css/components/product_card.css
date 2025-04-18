@@ -1,0 +1,124 @@
+.product_card {
+  background: #f4f6f9;
+  /* var(--shading----100); */
+  min-width: 40vw;
+  max-width: 42vw;
+  display: flex;
+  flex-direction: column;
+  margin: 1vw 1vw;
+  border-radius: 12px;
+}
+
+.product_card__image {
+  border-radius: 20px;
+  /* border: solid #f4f6f9 2vh; */
+  min-height: 10vh;
+  padding: 1vw;
+  min-height: 30vh;
+  max-height: 30vh;
+  background: var(--shading----100);
+}
+
+.product_card__description {
+  margin: 1vh 0;
+}
+
+.product_card__description__title {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  /* font-size: 24px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.product_card__description__details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+.product_card__description__details__bought,
+.product_card__description__details__rating {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.product_card__description__details__view {
+  border-radius: 12px;
+  background: #0f8ed6;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  padding: 0.5vw 1vw;
+}
+
+@media (max-width: 500px) {
+  .product_card__image {
+    min-height: 20vh;
+    max-height: 20vh;
+  }
+
+  .product_card__description__details__view {
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 500px) {
+  .product_card {
+    min-width: 30vw;
+    max-width: 32vw;
+    margin: 1vh 0;
+  }
+
+  .product_card__image {
+    min-height: 20vh;
+    max-height: 20vh;
+  }
+
+  .product_card__description__details__view {
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 900px) {
+  .product_card {
+    min-width: 18vw;
+    max-width: 20vw;
+    margin: 1vh 0;
+  }
+
+  .product_card__image {
+    min-height: 25vh;
+    max-height: 25vh;
+  }
+
+  .product_card__description__details__view {
+    min-width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product_card {
+    min-width: 18vw;
+    max-width: 20vw;
+    margin: 1vh 0;
+  }
+
+  .product_card__image {
+    min-height: 30vh;
+    max-height: 30vh;
+  }
+}
