@@ -877,3 +877,177 @@ label{
   text-align: left;
   font-size: clamp(1rem, 1.2vw, 1.5rem);
 }
+
+/* Scope styles to #prospectus and #sold */
+#prospectus .prospectus_table_row,
+#sold .sold_table_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#prospectus .prospectus_table_row:hover,
+#sold .sold_table_row:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Product details */
+#prospectus .prospectus_product_details,
+#sold .sold_product_details {
+    flex: 2;
+    font-size: 14px;
+    color: #555;
+    margin-right: 20px;
+}
+
+/* Customer details */
+#prospectus .prospectus_customer_details,
+#sold .sold_customer_details {
+    flex: 3;
+    font-size: 14px;
+    color: #555;
+    margin-right: 20px;
+}
+
+/* Status dropdown */
+#prospectus .status-select,
+#sold .status-select {
+    width: 120px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Edit button */
+#prospectus .prospectus_table_button,
+#sold .sold_table_button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#prospectus .prospectus_table_button:hover,
+#sold .sold_table_button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  #prospectus .prospectus_table_row,
+  #sold .sold_table_row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+
+  #prospectus .prospectus_table_row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+
+  #prospectus .prospectus_product_details,
+  #sold .sold_product_details {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  #prospectus .prospectus_customer_details,
+  #sold .sold_customer_details {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  #prospectus .status-select,
+  #sold .status-select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  #prospectus .prospectus_table_button,
+  #sold .sold_table_button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #prospectus .prospectus_table_button:hover,
+  #sold .sold_table_button:hover {
+    background-color: #0056b3;
+  }
+
+  #prospectus .prospectus_product_details,
+  #sold .sold_product_details,
+  #prospectus .prospectus_customer_details,
+  #sold .sold_customer_details {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  #prospectus .status-select,
+  #sold .status-select {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+
+  #prospectus .status-select {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #prospectus .prospectus_table_button,
+  #sold .sold_table_button {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+  }
+}

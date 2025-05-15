@@ -1,0 +1,406 @@
+2025-05-09 14:30:02 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => 
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=...
+Attempting database update for product ID: 2, field: faq
+DATABASE ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'icb_portal.products' doesn't exist
+
+2025-05-09 14:30:11 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => 
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=...
+Attempting database update for product ID: 2, field: faq
+DATABASE ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'icb_portal.products' doesn't exist
+
+2025-05-12 06:19:51 - Request received
+POST data: Array
+(
+    [field] => keyword
+    [value] => water-resistent,Altra,Watch,smart,UI,iui
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=keyword, product_id=2, value=water-resistent,Altra,Watch,smart,UI,iui...
+Attempting database update for product ID: 2, field: keyword
+DATABASE ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'icb_portal.products' doesn't exist
+
+2025-05-12 06:20:17 - Request received
+POST data: Array
+(
+    [field] => keyword
+    [value] => uii,water-resistent,Altra,Watch,smart,UI
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=keyword, product_id=2, value=uii,water-resistent,Altra,Watch,smart,UI...
+Attempting database update for product ID: 2, field: keyword
+DATABASE ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'icb_portal.products' doesn't exist
+
+2025-05-12 06:26:16 - Request received
+POST data: Array
+(
+    [field] => Features
+    [value] => too good,goodsd,bad,water resistent
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=Features, product_id=2, value=too good,goodsd,bad,water resistent...
+Attempting database update for product ID: 2, field: Features
+DATABASE ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'icb_portal.products' doesn't exist
+
+2025-05-12 06:37:50 - Request received
+POST data: Array
+(
+    [field] => Features
+    [value] => too good,good,bad,water resistenty
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=Features, product_id=2, value=too good,good,bad,water resistenty...
+Attempting database update for product ID: 2, field: Features
+SUCCESS: Update successful
+
+2025-05-12 06:38:01 - Request received
+POST data: Array
+(
+    [field] => Features
+    [value] => too good,good,bad,water resistant
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=Features, product_id=2, value=too good,good,bad,water resistant...
+Attempting database update for product ID: 2, field: Features
+SUCCESS: Update successful
+
+2025-05-12 06:38:19 - Request received
+POST data: Array
+(
+    [field] => About
+    [value] => hhfabcagg
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=About, product_id=2, value=hhfabcagg...
+Attempting database update for product ID: 2, field: About
+SUCCESS: Update successful
+
+2025-05-12 06:38:31 - Request received
+POST data: Array
+(
+    [field] => keyword
+    [value] => water-resistent,Altra,Watch,smart,UIbg
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=keyword, product_id=2, value=water-resistent,Altra,Watch,smart,UIbg...
+Attempting database update for product ID: 2, field: keyword
+SUCCESS: Update successful
+
+2025-05-12 06:39:14 - Request received
+POST data: Array
+(
+    [field] => keyword
+    [value] => water-resistent,Altra,Watch,smart,UIbg
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=keyword, product_id=2, value=water-resistent,Altra,Watch,smart,UIbg...
+Attempting database update for product ID: 2, field: keyword
+SUCCESS: Update successful
+
+2025-05-12 06:39:36 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => 
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=...
+Attempting database update for product ID: 2, field: faq
+SUCCESS: Update successful
+
+2025-05-12 06:42:46 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => pricess
+                        -?ngjmndskcjfjfcfjcxxxx
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=pricess
+                        -?ngjmndskcjfjfcfjcxxxx...
+Attempting database update for product ID: 2, field: faq
+SUCCESS: Update successful
+
+2025-05-12 06:43:27 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => pricss
+                        -
+                        +?ngjmndskcjfjfcfjcxxxx
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=pricss
+                        -
+                        +?ngjmndskcjfjfcfjcxxxx...
+Attempting database update for product ID: 2, field: faq
+SUCCESS: Update successful
+
+2025-05-12 06:44:37 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => pricss
+                        -
+                        +
+                        -?ngjmndskcjfjfcfjcxxxxfr
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=pricss
+                        -
+                        +
+                        -?ngjmndskcjfj...
+Attempting database update for product ID: 2, field: faq
+SUCCESS: Update successful
+
+2025-05-12 07:15:30 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => pricsfs
+                        -
+                        +
+                        -
+                        +?ngjmndskcjfjfcfjcxxxxfr
+    [product_id] => 2
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=2, value=pricsfs
+                        -
+                        +
+                        -
+          ...
+Attempting database update for product ID: 2, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:12:31 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => what is the price
+                        -?yes it doesy;what is service
+                        +?the name is marketing
+    [product_id] => 1
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=1, value=what is the price
+                        -?yes it doesy;what is service
+                        +...
+Attempting database update for product ID: 1, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:21:29 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => what is the price
+                        -
+                        +?yes it doesy;what is services
+                        +?the name is marketing
+    [product_id] => 1
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=1, value=what is the price
+                        -
+                        +?yes it doesy;what is service...
+Attempting database update for product ID: 1, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:21:49 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => what is the price
+                        -
+                        +
+                        +?yes it doesy;what is services
+                        +
+                        -?the name is marketingss
+    [product_id] => 1
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=1, value=what is the price
+                        -
+                        +
+                        +?y...
+Attempting database update for product ID: 1, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:23:02 - Request received
+POST data: Array
+(
+    [field] => About
+    [value] => A smart watch is a wearable device designed to offer a blend of style, technology, and functionality. Beyond telling time, it connects with your smartphone to deliver notifications, track fitness activities, monitor health metrics like heart rate and sleep, control music, and even support voice commands or callees.
+    [product_id] => 1
+)
+
+Raw input: 
+
+Extracted data: field=About, product_id=1, value=A smart watch is a wearable device designed to offer a blend of style, technology, and functionality...
+Attempting database update for product ID: 1, field: About
+SUCCESS: Update successful
+
+2025-05-12 08:24:47 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => Does this provide free service?
+                        +?Yes commitment to you doesn't end with the final product. We offeree maintenance service for the first six months. After that period, we have very reasonable charges for monthly maintenance services
+    [product_id] => 3
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=3, value=Does this provide free service?
+                        +?Yes commitment to you doesn't end with th...
+Attempting database update for product ID: 3, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:25:09 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => Does this provide free service??
+                        -?+?Yes commitment to you doesn't end with the final product. We offeree maintenance service for the first six months. After that period, we have very reasonable charges for monthly maintenance services
+    [product_id] => 3
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=3, value=Does this provide free service??
+                        -?+?Yes commitment to you doesn't end with...
+Attempting database update for product ID: 3, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:28:28 - Request received
+POST data: Array
+(
+    [field] => keyword
+    [value] => Fastrack,watch,smartsd
+    [product_id] => 3
+)
+
+Raw input: 
+
+Extracted data: field=keyword, product_id=3, value=Fastrack,watch,smartsd...
+Attempting database update for product ID: 3, field: keyword
+SUCCESS: Update successful
+
+2025-05-12 08:29:57 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => Does this provide free service
+                        -?Yes commitment to you doesn't end with the final product. We offeree maintenance service for the first six months. After that period, we have very reasonable charges for monthly maintenance services
+    [product_id] => 3
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=3, value=Does this provide free service
+                        -?Yes commitment to you doesn't end with the...
+Attempting database update for product ID: 3, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:30:15 - Request received
+POST data: Array
+(
+    [field] => faq
+    [value] => Does this provide free servicet
+                        -?Yes commitment to you doesn't end with the final product. We offeree maintenance service for the first six months. After that period, we have very reasonable charges for monthly maintenance services
+    [product_id] => 3
+)
+
+Raw input: 
+
+Extracted data: field=faq, product_id=3, value=Does this provide free servicet
+                        -?Yes commitment to you doesn't end with th...
+Attempting database update for product ID: 3, field: faq
+SUCCESS: Update successful
+
+2025-05-12 08:32:44 - Request received
+POST data: Array
+(
+    [field] => About
+    [value] => sxcvsdsd
+    [product_id] => 3
+)
+
+Raw input: 
+
+Extracted data: field=About, product_id=3, value=sxcvsdsd...
+Attempting database update for product ID: 3, field: About
+SUCCESS: Update successful
+
+2025-05-12 08:34:01 - Request received
+POST data: Array
+(
+    [field] => About
+    [value] => sxcvsdsdee
+    [product_id] => 3
+)
+Raw input: Extracted data: field=About, product_id=3, value=sxcvsdsdee...
+Attempting database update for product ID: 3, field: About
+SUCCESS: Update successful
+

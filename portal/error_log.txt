@@ -1,0 +1,14 @@
+[23-Apr-2025 12:00:22 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:00:22 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10
+[23-Apr-2025 12:03:06 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:03:06 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10
+[23-Apr-2025 12:03:38 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:03:38 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10
+[23-Apr-2025 12:10:02 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:10:02 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10
+[23-Apr-2025 12:16:37 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:16:37 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10
+[23-Apr-2025 12:16:59 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:16:59 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10
+[23-Apr-2025 12:17:20 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 3
+[23-Apr-2025 12:17:20 Europe/Berlin] PHP Warning:  Undefined array key "message" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\components\notification.php on line 10

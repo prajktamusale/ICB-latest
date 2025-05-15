@@ -30,7 +30,10 @@
     "<button class='accordian'>Partner</button>
     <ul class='panel'>
         <a href='partnerdashboard.php'>Dashboard</a>
-        <a href='#'>Product Post & Manage</a>
+        <a href='partner-profile.php'>Profile</a>
+        <a href='Product-Catalogue.php'>Product Catalogue</a>
+        <a href='Partner-Settings.php'>Settings</a>
+        <a href='Orders.php'>Orders</a>
     </ul>",
     "<button class='accordian'>Adminstrator</button>
     <ul class='panel'>

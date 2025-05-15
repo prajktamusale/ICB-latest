@@ -76,22 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="coreTeamMember">
-                <div class="profilePictureCTM">
-                    <div class="profilePicture">
-                        <img src="./images/core-team/dhanashree.jpg">
-                        <img class="check" src="./images/checkadmin.png">
-                    </div>
-                </div>
-                <div class="contactDetailsCTM">
-                    <div class="nameCTM">Dhanashree Patil</div>
-                    <div class="positionCTM">Project Director</div>
-                    <div class="socialMediaHandles">
-                        <a href="https://t.me/dhanashreepatil2801" target="_blank" class="telegram">Telegram</a>
-                        <a href="https://www.instagram.com/dhanashree_patil_2801/" target="_blank" class="instagram">Instagram</a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <?php include "./components/bottomNav.php";?>

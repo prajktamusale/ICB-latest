@@ -1,0 +1,196 @@
+[23-Apr-2025 12:29:54 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:29:54 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:29:54 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:29:54 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:30:19 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:30:19 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:30:19 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:30:19 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:30:45 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:30:45 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:30:45 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:30:45 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:33:48 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:33:48 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:33:48 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:33:48 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:35:35 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:35:35 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:35:35 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:35:35 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:41:07 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:41:07 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:41:07 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:41:07 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:41:38 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:41:38 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:41:38 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:41:38 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:41:44 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:41:44 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:41:44 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:41:44 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:42:32 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:42:32 Europe/Berlin] Order ID: 35
+[23-Apr-2025 12:42:32 Europe/Berlin] Hash ID: 
+[23-Apr-2025 12:42:32 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 12:42:55 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:42:55 Europe/Berlin] Order ID: 35
+[23-Apr-2025 12:42:55 Europe/Berlin] Hash ID: 
+[23-Apr-2025 12:42:55 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 12:43:51 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:43:51 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:43:51 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:43:51 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:44:32 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:44:32 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:44:32 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:44:32 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:45:48 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:45:48 Europe/Berlin] Order ID: 33
+[23-Apr-2025 12:45:48 Europe/Berlin] Hash ID: $2y$10$shNrL1s1UNQnaikx.cBfeeuBeSgM41lmIgX.hKvNxtzRAi58XJvea
+[23-Apr-2025 12:45:48 Europe/Berlin] Order Hash Message: 33
+[23-Apr-2025 12:47:21 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:47:21 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:47:21 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:47:21 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:52:33 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:52:33 Europe/Berlin] Order ID: 35
+[23-Apr-2025 12:52:33 Europe/Berlin] Hash ID: 
+[23-Apr-2025 12:52:33 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 12:55:31 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:55:31 Europe/Berlin] Order ID: 35
+[23-Apr-2025 12:55:31 Europe/Berlin] Hash ID: 
+[23-Apr-2025 12:55:31 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 12:56:43 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 15
+[23-Apr-2025 12:56:43 Europe/Berlin] Order ID: 35
+[23-Apr-2025 12:56:43 Europe/Berlin] Hash ID: 
+[23-Apr-2025 12:56:43 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 12:58:51 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 12:58:51 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 12:58:51 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:58:51 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:58:51 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:59:41 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 12:59:41 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 12:59:41 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:59:41 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:59:41 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 12:59:59 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 12:59:59 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeepdalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 12:59:59 Europe/Berlin] Order ID: 32
+[23-Apr-2025 12:59:59 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 12:59:59 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 13:08:58 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:08:58 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep, Phone: 2147483647, Email: mandp@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:08:59 Europe/Berlin] Order ID: 32
+[23-Apr-2025 13:08:59 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 13:08:59 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 13:09:39 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:09:39 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeeep, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:09:39 Europe/Berlin] Order ID: 32
+[23-Apr-2025 13:09:39 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 13:09:39 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 13:10:29 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:10:29 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeepdalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:10:29 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 31
+[23-Apr-2025 13:10:36 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:10:36 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeepdalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:10:36 Europe/Berlin] PHP Warning:  Undefined variable $result in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 31
+[23-Apr-2025 13:10:55 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:10:55 Europe/Berlin] Order ID: 33, Customer ID: 0, Quantity: 1, Name: Deepka , Phone: 2147483647, Email: deepak@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:10:55 Europe/Berlin] Order ID: 33
+[23-Apr-2025 13:10:55 Europe/Berlin] Hash ID: $2y$10$shNrL1s1UNQnaikx.cBfeeuBeSgM41lmIgX.hKvNxtzRAi58XJvea
+[23-Apr-2025 13:10:55 Europe/Berlin] Order Hash Message: 33
+[23-Apr-2025 13:11:19 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:11:19 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep dalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:11:19 Europe/Berlin] Order ID: 32
+[23-Apr-2025 13:11:19 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 13:11:19 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 13:11:37 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:11:37 Europe/Berlin] Order ID: 35, Customer ID: 0, Quantity: 3, Name: rakhi  Musale, Phone: 2147483647, Email: rakhimusale8@gmail.com, State: gujrat, City: delhi, Address: karveroad, Pin: 411001
+[23-Apr-2025 13:11:37 Europe/Berlin] Order ID: 35
+[23-Apr-2025 13:11:37 Europe/Berlin] Hash ID: 
+[23-Apr-2025 13:11:37 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 13:11:54 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:11:54 Europe/Berlin] Order ID: 42, Customer ID: 0, Quantity: 3, Name: user xyz, Phone: 2109483607, Email: userme@gmail.com, State: maharashtra, City: pun, Address: mahabaleshwar, Pin: 411002
+[23-Apr-2025 13:11:54 Europe/Berlin] Order ID: 42
+[23-Apr-2025 13:11:54 Europe/Berlin] Hash ID: 
+[23-Apr-2025 13:11:54 Europe/Berlin] Order Hash Message: 42
+[23-Apr-2025 13:12:43 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:12:43 Europe/Berlin] Order ID: 35, Customer ID: 0, Quantity: 3, Name: rakhi  Musale, Phone: 2147483647, Email: rakhimusale8@gmail.com, State: gujrat, City: delhi, Address: karveroad, Pin: 411001
+[23-Apr-2025 13:12:44 Europe/Berlin] Order ID: 35
+[23-Apr-2025 13:12:44 Europe/Berlin] Hash ID: 
+[23-Apr-2025 13:12:44 Europe/Berlin] Order Hash Message: 35
+[23-Apr-2025 13:15:23 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:15:23 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep dalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:15:23 Europe/Berlin] Order ID: 32
+[23-Apr-2025 13:15:23 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 13:15:23 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 13:16:21 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:16:21 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep dalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 13:16:21 Europe/Berlin] Order ID: 32
+[23-Apr-2025 13:16:21 Europe/Berlin] Hash ID: $2y$10$o9FOa14FlenAbRILL9A3Pu0zjhHxmxtNO1oy8J61RktyevLvs5vD.
+[23-Apr-2025 13:16:21 Europe/Berlin] Order Hash Message: 32
+[23-Apr-2025 13:20:03 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:20:18 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:21:21 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:36:47 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:36:47 Europe/Berlin] Validation failed: Missing or invalid input data.
+[23-Apr-2025 13:37:16 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 13:37:16 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep dalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 17:24:40 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 17:24:40 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 3, Name: Mandeep dalavi, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 17:36:15 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 17:36:15 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 5, Name: Mandeep, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 17:36:32 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 17:36:32 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 5, Name: Mandeep, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 18:47:53 Europe/Berlin] PHP Warning:  Undefined array key "customer_id" in C:\xampp\htdocs\ICB-main\ICB-latest\portal\database\updateDetailsProspectusOrder.php on line 16
+[23-Apr-2025 18:47:53 Europe/Berlin] Order ID: 32, Customer ID: 0, Quantity: 5, Name: Mandeep, Phone: 2147483647, Email: mandeep@gmail.com, State: Maharashtra, City: Pune, Address: Pune, Pin: 411001
+[23-Apr-2025 18:59:59 Europe/Berlin] Exception: Required parameters missing
+[23-Apr-2025 19:00:37 Europe/Berlin] Exception: Required parameters missing
+[23-Apr-2025 19:17:02 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:17:24 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:18:05 Europe/Berlin] Updating customer 34 for order 32
+[23-Apr-2025 19:19:53 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:20:04 Europe/Berlin] Updating customer 52 for order 35
+[23-Apr-2025 19:20:15 Europe/Berlin] Updating customer 58 for order 42
+[23-Apr-2025 19:20:37 Europe/Berlin] Updating customer 52 for order 35
+[23-Apr-2025 19:21:55 Europe/Berlin] Updating customer 52 for order 35
+[23-Apr-2025 19:21:55 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: CONSTRAINT `customer.whatsapp` failed for `icb_portal`.`customer`
+[23-Apr-2025 19:22:10 Europe/Berlin] Updating customer 52 for order 35
+[23-Apr-2025 19:22:48 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:25:01 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:25:16 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:25:16 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: CONSTRAINT `customer.whatsapp` failed for `icb_portal`.`customer`
+[23-Apr-2025 19:25:30 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 19:25:52 Europe/Berlin] Updating customer 52 for order 35
+[23-Apr-2025 19:26:08 Europe/Berlin] Updating customer 34 for order 32
+[23-Apr-2025 19:26:21 Europe/Berlin] Updating customer 34 for order 32
+[23-Apr-2025 19:33:12 Europe/Berlin] Updating customer 35 for order 33
+[23-Apr-2025 20:22:07 Europe/Berlin] Updating customer 34 for order 32
+[24-Apr-2025 11:30:48 Europe/Berlin] Updating customer 58 for order 42
+[24-Apr-2025 12:20:09 Europe/Berlin] Updating customer 35 for order 33
+[24-Apr-2025 14:12:59 Europe/Berlin] Updating customer 34 for order 32
+[24-Apr-2025 14:12:59 Europe/Berlin] Updating customer 34 for order 32
+[25-Apr-2025 07:36:44 Europe/Berlin] Updating customer 34 for order 32
+[25-Apr-2025 07:36:44 Europe/Berlin] Updating customer 34 for order 32
+[25-Apr-2025 08:38:09 Europe/Berlin] Updating customer 58 for order 42
+[25-Apr-2025 08:38:09 Europe/Berlin] Updating customer 58 for order 42
+[25-Apr-2025 08:38:23 Europe/Berlin] Updating customer 52 for order 35
+[25-Apr-2025 08:38:23 Europe/Berlin] Updating customer 52 for order 35
+[25-Apr-2025 09:31:24 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: Order not found
+[25-Apr-2025 10:49:20 Europe/Berlin] Updating customer 52 for order 35
+[25-Apr-2025 10:49:20 Europe/Berlin] Updating customer 52 for order 35
+[25-Apr-2025 10:50:25 Europe/Berlin] Updating customer 52 for order 35
+[25-Apr-2025 10:50:25 Europe/Berlin] Updating customer 52 for order 35
+[25-Apr-2025 10:53:54 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: Required parameters missing
+[25-Apr-2025 10:57:47 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: Required parameters missing
+[25-Apr-2025 10:57:57 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: Required parameters missing
+[25-Apr-2025 11:54:35 Europe/Berlin] Exception in updateDetailsProspectusOrder.php: Required parameters missing
+[28-Apr-2025 06:08:05 Europe/Berlin] Updating customer 35 for order 33
+[28-Apr-2025 06:08:05 Europe/Berlin] Updating customer 35 for order 33
+[28-Apr-2025 06:27:42 Europe/Berlin] Updating customer 35 for order 33
+[28-Apr-2025 06:27:42 Europe/Berlin] Updating customer 35 for order 33
+[28-Apr-2025 06:28:02 Europe/Berlin] Updating customer 35 for order 33
+[28-Apr-2025 06:28:02 Europe/Berlin] Updating customer 35 for order 33
